@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Jurassic_Park.iml" filepath="$PROJECT_DIR$/.idea/modules/Jurassic_Park.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Jurassic_Park_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Jurassic_Park_main.iml" group="Jurassic_Park" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Jurassic_Park_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Jurassic_Park_test.iml" group="Jurassic_Park" />
+    </modules>
+  </component>
+</project>
