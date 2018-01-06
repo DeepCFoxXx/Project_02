@@ -4,10 +4,10 @@ public abstract class Paddocks {
 
     private String name;
     private String type;
-    private double size;
+    private int size;
     private int defenseValue;
 
-    public Paddocks(String name, String type, double size, int defenseValue) {
+    public Paddocks(String name, String type, int size, int defenseValue) {
         this.name = name;
         this.type = type;
         this.size = size;
@@ -20,5 +20,9 @@ public abstract class Paddocks {
 
     public String getType() {
         return this.type;
+    }
+
+    public int getSize() {
+        return this.size;
     }
 }

@@ -12,7 +12,7 @@ public class AquaticPaddockTest {
 
     @Before
     public void before() {
-        aquaticPaddock = new AquaticPaddock("Jurassic Sea World", "Aquatic", 45460.9, 1000);
+        aquaticPaddock = new AquaticPaddock("Jurassic Sea World", "Aquatic", 45500, 1000);
     }
 
     @Test
@@ -23,5 +23,10 @@ public class AquaticPaddockTest {
     @Test
     public void aquaticPaddockHasType() {
         assertEquals("Aquatic", aquaticPaddock.getType());
+    }
+
+    @Test
+    public void aquaticPaddockHasSize() {
+        assertEquals(45500, aquaticPaddock.getSize());
     }
 }
