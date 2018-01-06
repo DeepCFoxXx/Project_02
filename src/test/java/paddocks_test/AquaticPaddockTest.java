@@ -29,4 +29,9 @@ public class AquaticPaddockTest {
     public void aquaticPaddockHasSize() {
         assertEquals(45500, aquaticPaddock.getSize());
     }
+
+    @Test
+    public void aquaticPaddockHasDefenseValue() {
+        assertEquals(1000, aquaticPaddock.getDefenseValue());
+    }
 }
