@@ -14,4 +14,7 @@ public abstract class Paddocks {
         this.defenseValue = defenseValue;
     }
 
+    public String getName() {
+        return this.name;
+    }
 }
