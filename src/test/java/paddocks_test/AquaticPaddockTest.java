@@ -16,7 +16,12 @@ public class AquaticPaddockTest {
     }
 
     @Test
-    public void aquaticPaddockHasName(){
+    public void aquaticPaddockHasName() {
         assertEquals("Jurassic Sea World", aquaticPaddock.getName());
+    }
+
+    @Test
+    public void aquaticPaddockHasType() {
+        assertEquals("Aquatic", aquaticPaddock.getType());
     }
 }
