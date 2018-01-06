@@ -24,4 +24,19 @@ public class PlesiosaurTest {
     public void plesiosaurHasHeight() {
         assertEquals(1, plesiosaur.getHeight());
     }
+
+    @Test
+    public void plesiosaurHasLength() {
+        assertEquals(4, plesiosaur.getLength());
+    }
+
+    @Test
+    public void plesiosaurHasWeight() {
+        assertEquals(450, plesiosaur.getWeight());
+    }
+
+    @Test
+    public void plesiosaurHasType() {
+        assertEquals("Aquatic", plesiosaur.getType());
+    }
 }

@@ -23,4 +23,16 @@ public abstract class AqaticDionsaurs {
     public int getHeight() {
         return this.hieght;
     }
+
+    public int getLength() {
+        return this.length;
+    }
+
+    public int getWeight() {
+        return this.weight;
+    }
+
+    public String getType() {
+        return this.type;
+    }
 }
