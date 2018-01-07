@@ -39,4 +39,9 @@ public class AllosaurusTest {
     public void allosaurusHasType() {
         assertEquals("Carnivorous", allosaurus.getType());
     }
+
+    @Test
+    public void allosaurusHasDiscription() {
+        assertEquals("The name Allosaurus means different lizard.", allosaurus.getDiscription());
+    }
 }

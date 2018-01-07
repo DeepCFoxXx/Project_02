@@ -9,4 +9,7 @@ public class Allosaurus extends CarnivorousDinosaurs{
         this.discription = discription;
     }
 
+    public String getDiscription() {
+        return "The name Allosaurus means different lizard.";
+    }
 }
