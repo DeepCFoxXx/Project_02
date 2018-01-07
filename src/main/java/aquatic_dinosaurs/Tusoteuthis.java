@@ -1,4 +1,4 @@
-package dinosaurs.aquatic_dinosaurs;
+package aquatic_dinosaurs;
 
 public class Tusoteuthis extends AqaticDinosaurs{
 

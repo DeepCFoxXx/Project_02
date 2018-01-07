@@ -1,6 +1,6 @@
-package dinosaurs.carnivore_dionsaurs;
+package carnivore_dionsaurs;
 
-public class Allosaurus extends CarnivorousDinosaurs {
+public class Allosaurus extends CarnivorousDinosaurs{
 
     private String discription;
 

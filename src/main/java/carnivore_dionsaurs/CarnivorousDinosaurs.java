@@ -1,4 +1,4 @@
-package dinosaurs.carnivore_dionsaurs;
+package carnivore_dionsaurs;
 
 import dinosaurs.Dinosaurs;
 

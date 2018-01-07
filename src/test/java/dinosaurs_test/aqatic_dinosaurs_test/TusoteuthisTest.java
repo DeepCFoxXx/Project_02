@@ -1,6 +1,6 @@
-package dinosaurs_test;
+package dinosaurs_test.aqatic_dinosaurs_test;
 
-import dinosaurs.aquatic_dinosaurs.Tusoteuthis;
+import aquatic_dinosaurs.Tusoteuthis;
 import org.junit.Before;
 import org.junit.Test;
 
