@@ -40,5 +40,10 @@ public class StegosaurusTest {
         assertEquals("Herbivore", stegosaurus.getType());
     }
 
+    @Test
+    public void stegosaurusHasDiscription() {
+        assertEquals("lived around 155 million years ago—during the Jurassic Period—in the Western portion of North America and parts of Europe.", stegosaurus.getDiscription());
+    }
+
 
 }

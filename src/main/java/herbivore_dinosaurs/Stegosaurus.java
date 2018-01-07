@@ -9,4 +9,7 @@ public class Stegosaurus extends HerbivoreDionsaurs {
         this.discription = discription;
     }
 
+    public String getDiscription() {
+        return "lived around 155 million years ago—during the Jurassic Period—in the Western portion of North America and parts of Europe.";
+    }
 }
