@@ -8,4 +8,7 @@ public class Plesiosaur extends AqaticDionsaurs {
         super(name, height, length, weight, type);
     }
 
+    public String getDiscription() {
+        return "Plesiosaurs were an order of large carnivorous marine reptiles from 245 million years ago.";
+    }
 }

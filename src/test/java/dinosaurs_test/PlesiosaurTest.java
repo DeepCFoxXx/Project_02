@@ -39,4 +39,9 @@ public class PlesiosaurTest {
     public void plesiosaurHasType() {
         assertEquals("Aquatic", plesiosaur.getType());
     }
+
+    @Test
+    public void plesiosaurHasDiscription() {
+        assertEquals("Plesiosaurs were an order of large carnivorous marine reptiles from 245 million years ago.", plesiosaur.getDiscription());
+    }
 }
