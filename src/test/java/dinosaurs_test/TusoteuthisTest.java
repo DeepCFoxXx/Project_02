@@ -1,6 +1,6 @@
 package dinosaurs_test;
 
-import dinosaurs.Tusoteuthis;
+import dinosaurs.aquatic_dinosaurs.Tusoteuthis;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -44,4 +44,5 @@ public class TusoteuthisTest {
     public void tusoteuthisHasDiscription() {
         assertEquals("Large ancestor of modern day giant squid, Eating habits included siphoning and drinking preys blood.", tusoteuthis.getDiscription());
     }
+
 }

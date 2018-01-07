@@ -1,5 +1,3 @@
-import java.util.ArrayList;
-
 public class Park {
 
     private String name;
@@ -13,4 +11,5 @@ public class Park {
     public String getName() {
        return this.name;
     }
+
 }

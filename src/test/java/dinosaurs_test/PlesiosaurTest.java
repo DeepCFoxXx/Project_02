@@ -1,6 +1,6 @@
 package dinosaurs_test;
 
-import dinosaurs.Plesiosaur;
+import dinosaurs.aquatic_dinosaurs.Plesiosaur;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -44,4 +44,5 @@ public class PlesiosaurTest {
     public void plesiosaurHasDiscription() {
         assertEquals("Plesiosaurs were an order of large carnivorous marine reptiles from 245 million years ago.", plesiosaur.getDiscription());
     }
+
 }

@@ -1,6 +1,6 @@
 package dinosaurs;
 
-public abstract class AqaticDionsaurs {
+public abstract class Dinosaurs {
 
     private String name;
     private int hieght;
@@ -8,7 +8,7 @@ public abstract class AqaticDionsaurs {
     private int weight;
     private String type;
 
-    public AqaticDionsaurs(String name, int height, int length, int weight, String type) {
+    public Dinosaurs(String name, int height, int length, int weight, String type) {
         this.name = name;
         this.hieght = height;
         this.length = length;
@@ -35,4 +35,5 @@ public abstract class AqaticDionsaurs {
     public String getType() {
         return this.type;
     }
+
 }
