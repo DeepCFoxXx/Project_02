@@ -6,4 +6,7 @@ public class Tusoteuthis extends AqaticDionsaurs{
         super(name, height, length, weight, type);
     }
 
+    public String getDiscription() {
+        return "Large ancestor of modern day giant squid, Eating habits included siphoning and drinking preys blood.";
+    }
 }

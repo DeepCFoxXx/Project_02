@@ -39,4 +39,9 @@ public class TusoteuthisTest {
     public void tusoteuthisHasType() {
         assertEquals("Aquatic", tusoteuthis.getType());
     }
+
+    @Test
+    public void tusoteuthisHasDiscription() {
+        assertEquals("Large ancestor of modern day giant squid, Eating habits included siphoning and drinking preys blood.", tusoteuthis.getDiscription());
+    }
 }
