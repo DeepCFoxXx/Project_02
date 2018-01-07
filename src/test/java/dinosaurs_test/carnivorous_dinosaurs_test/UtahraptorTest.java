@@ -40,4 +40,9 @@ public class UtahraptorTest {
         assertEquals("Carnivorous", utahraptor.getType());
     }
 
+    @Test
+    public void utahraptorHasDiscription() {
+        assertEquals("Largest known member of raptor family.", utahraptor.getDiscription());
+    }
+
 }

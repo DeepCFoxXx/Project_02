@@ -8,4 +8,8 @@ public class Utahraptor extends CarnivorousDinosaurs {
         super(name, height, length, weight, type);
         this.discription = discription;
     }
+
+    public String getDiscription() {
+        return "Largest known member of raptor family.";
+    }
 }
