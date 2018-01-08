@@ -44,6 +44,13 @@ public class AllosaurusTest {
     public void allosaurusHasHealth() {
         assertEquals(700, allosaurus.getHealth());
     }
+
+    @Test
+    public void allosaurusCanTakeDamage() {
+        allosaurus.takeDamage(50);
+        assertEquals(650, allosaurus.getHealth());
+    }
+
     @Test
     public void allosaurusHasDiscription() {
         assertEquals("The name Allosaurus means different lizard.", allosaurus.getDiscription());
