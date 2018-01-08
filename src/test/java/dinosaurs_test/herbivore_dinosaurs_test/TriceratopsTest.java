@@ -46,6 +46,12 @@ public class TriceratopsTest {
     }
 
     @Test
+    public void triceratopsCanTakeDamage() {
+        triceratops.takeDamage(50);
+        assertEquals(1950, triceratops.getHealth());
+    }
+
+    @Test
     public void triceratopsHasDiscription() {
         assertEquals("With its 3 horns, a parrot-like beak and a large frill that could reach nearly 1 metre (3 feet) across.", triceratops.getDiscription());
     }
