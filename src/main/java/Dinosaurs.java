@@ -1,5 +1,7 @@
 package dinosaurs;
 
+import dinosaurs_food.Fish;
+
 public abstract class Dinosaurs {
 
     private String name;
@@ -45,4 +47,5 @@ public abstract class Dinosaurs {
     public void takeDamage(int damage) {
         this.healthValue -= damage;
     }
+
 }
