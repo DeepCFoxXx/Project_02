@@ -41,4 +41,8 @@ public abstract class Dinosaurs {
     public int getHealth() {
         return this.healthValue;
     }
+
+    public void takeDamage(int damage) {
+        this.healthValue -= damage;
+    }
 }
