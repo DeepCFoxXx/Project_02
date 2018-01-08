@@ -1,6 +1,8 @@
 package dinosaurs_test.aqatic_dinosaurs_test;
 
 import aquatic_dinosaurs.Plesiosaur;
+import dinosaurs_food.Edible;
+import dinosaurs_food.Fish;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -9,6 +11,7 @@ import static org.junit.Assert.assertEquals;
 public class PlesiosaurTest {
 
     Plesiosaur plesiosaur;
+    Edible edible;
 
     @Before
     public void before() {
@@ -49,6 +52,13 @@ public class PlesiosaurTest {
     public void plesiosaurCanTakeDamage() {
         plesiosaur.takeDamage(50);
         assertEquals(450, plesiosaur.getHealth());
+    }
+
+    @Test
+    public void plesiosaurCanFeed() {
+        edible = new Fish();
+        plesiosaur.feed(100);
+        assertEquals(600, plesiosaur.getHealth());
     }
 
     @Test

@@ -2,9 +2,48 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b085f0f-e8a1-4d8b-b5d6-84333f225ec9" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/dinosaurs_food/Pig.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/dinosaurs_food_test/PigTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/dinosaurs/IFeed.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/aquatic_dinosaurs/AqaticDinosaurs.class" afterPath="$PROJECT_DIR$/out/production/classes/aquatic_dinosaurs/AqaticDinosaurs.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/aquatic_dinosaurs/Plesiosaur.class" afterPath="$PROJECT_DIR$/out/production/classes/aquatic_dinosaurs/Plesiosaur.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/aquatic_dinosaurs/Tusoteuthis.class" afterPath="$PROJECT_DIR$/out/production/classes/aquatic_dinosaurs/Tusoteuthis.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/carnivore_dionsaurs/Allosaurus.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/carnivore_dionsaurs/CarnivorousDinosaurs.class" afterPath="$PROJECT_DIR$/out/production/classes/carnivore_dionsaurs/CarnivorousDinosaurs.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/carnivore_dionsaurs/Utahraptor.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/dinosaurs/Dinosaurs.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/dinosaurs_food/IFeed.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/dinosaurs_food/Leaves.class" afterPath="$PROJECT_DIR$/out/production/classes/dinosaurs_food/Leaves.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/dinosaurs_food/Pig.class" afterPath="$PROJECT_DIR$/out/production/classes/dinosaurs_food/Pig.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/herbivore_dinosaurs/HerbivoreDionsaurs.class" afterPath="$PROJECT_DIR$/out/production/classes/herbivore_dinosaurs/HerbivoreDionsaurs.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/herbivore_dinosaurs/Stegosaurus.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/herbivore_dinosaurs/Triceratops.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/dinosaurs_test/aqatic_dinosaurs_test/PlesiosaurTest.class" afterPath="$PROJECT_DIR$/out/test/classes/dinosaurs_test/aqatic_dinosaurs_test/PlesiosaurTest.class" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/dinosaurs_test/aqatic_dinosaurs_test/TusoteuthisTest.class" afterPath="$PROJECT_DIR$/out/test/classes/dinosaurs_test/aqatic_dinosaurs_test/TusoteuthisTest.class" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/dinosaurs_test/carnivorous_dinosaurs_test/AllosaurusTest.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/dinosaurs_test/carnivorous_dinosaurs_test/UtahraptorTest.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/dinosaurs_test/herbivore_dinosaurs_test/StegosaurusTest.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/dinosaurs_test/herbivore_dinosaurs_test/TriceratopsTest.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Dinosaurs.java" afterPath="$PROJECT_DIR$/src/main/java/dinosaurs/Dinosaur.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/aquatic_dinosaurs/AqaticDinosaurs.java" afterPath="$PROJECT_DIR$/src/main/java/aquatic_dinosaurs/AqaticDinosaurs.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/aquatic_dinosaurs/Plesiosaur.java" afterPath="$PROJECT_DIR$/src/main/java/aquatic_dinosaurs/Plesiosaur.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/aquatic_dinosaurs/Tusoteuthis.java" afterPath="$PROJECT_DIR$/src/main/java/aquatic_dinosaurs/Tusoteuthis.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/carnivore_dionsaurs/Allosaurus.java" afterPath="$PROJECT_DIR$/src/main/java/carnivore_dionsaurs/Allosaurus.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/carnivore_dionsaurs/CarnivorousDinosaurs.java" afterPath="$PROJECT_DIR$/src/main/java/carnivore_dionsaurs/CarnivorousDinosaurs.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/carnivore_dionsaurs/Utahraptor.java" afterPath="$PROJECT_DIR$/src/main/java/carnivore_dionsaurs/Utahraptor.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dinosaurs_food/Fish.java" afterPath="$PROJECT_DIR$/src/main/java/dinosaurs_food/Fish.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dinosaurs_food/IFeed.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dinosaurs_food/Leaves.java" afterPath="$PROJECT_DIR$/src/main/java/dinosaurs_food/Leaves.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dinosaurs_food/Pig.java" afterPath="$PROJECT_DIR$/src/main/java/dinosaurs_food/Pig.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/herbivore_dinosaurs/HerbivoreDionsaurs.java" afterPath="$PROJECT_DIR$/src/main/java/herbivore_dinosaurs/HerbivoreDionsaurs.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/herbivore_dinosaurs/Stegosaurus.java" afterPath="$PROJECT_DIR$/src/main/java/herbivore_dinosaurs/Stegosaurus.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/herbivore_dinosaurs/Triceratops.java" afterPath="$PROJECT_DIR$/src/main/java/herbivore_dinosaurs/Triceratops.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/dinosaurs_food_test/FishTest.java" afterPath="$PROJECT_DIR$/src/test/java/dinosaurs_food_test/FishTest.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/dinosaurs_test/aqatic_dinosaurs_test/PlesiosaurTest.java" afterPath="$PROJECT_DIR$/src/test/java/dinosaurs_test/aqatic_dinosaurs_test/PlesiosaurTest.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/dinosaurs_test/aqatic_dinosaurs_test/TusoteuthisTest.java" afterPath="$PROJECT_DIR$/src/test/java/dinosaurs_test/aqatic_dinosaurs_test/TusoteuthisTest.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/dinosaurs_test/carnivorous_dinosaurs_test/AllosaurusTest.java" afterPath="$PROJECT_DIR$/src/test/java/dinosaurs_test/carnivorous_dinosaurs_test/AllosaurusTest.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/dinosaurs_test/carnivorous_dinosaurs_test/UtahraptorTest.java" afterPath="$PROJECT_DIR$/src/test/java/dinosaurs_test/carnivorous_dinosaurs_test/UtahraptorTest.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/dinosaurs_test/herbivore_dinosaurs_test/StegosaurusTest.java" afterPath="$PROJECT_DIR$/src/test/java/dinosaurs_test/herbivore_dinosaurs_test/StegosaurusTest.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/dinosaurs_test/herbivore_dinosaurs_test/TriceratopsTest.java" afterPath="$PROJECT_DIR$/src/test/java/dinosaurs_test/herbivore_dinosaurs_test/TriceratopsTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -23,58 +62,88 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Dinosaurs.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Dinosaurs.java">
+      <file leaf-file-name="FishTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/dinosaurs_food_test/FishTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+            <state relative-caret-position="392">
+              <caret line="33" column="1" lean-forward="true" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
               <folding>
-                <element signature="e#555#556#0" expanded="true" />
-                <element signature="e#587#588#0" expanded="true" />
-                <element signature="e#617#618#0" expanded="true" />
-                <element signature="e#651#652#0" expanded="true" />
-                <element signature="e#681#682#0" expanded="true" />
-                <element signature="e#715#716#0" expanded="true" />
-                <element signature="e#745#746#0" expanded="true" />
-                <element signature="e#779#780#0" expanded="true" />
-                <element signature="e#810#811#0" expanded="true" />
-                <element signature="e#842#843#0" expanded="true" />
-                <element signature="e#872#873#0" expanded="true" />
-                <element signature="e#911#912#0" expanded="true" />
-                <element signature="e#953#954#0" expanded="true" />
-                <element signature="e#995#996#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#340#341#0" expanded="true" />
+                <element signature="e#373#374#0" expanded="true" />
+                <element signature="e#424#425#0" expanded="true" />
+                <element signature="e#480#481#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IFeed.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/dinosaurs_food/IFeed.java">
+      <file leaf-file-name="TusoteuthisTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/dinosaurs_test/aqatic_dinosaurs_test/TusoteuthisTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="8" lean-forward="false" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Fish.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/dinosaurs_food/Fish.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="25" lean-forward="true" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FishTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/dinosaurs_food_test/FishTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+            <state relative-caret-position="441">
+              <caret line="60" column="49" lean-forward="false" selection-start-line="60" selection-start-column="49" selection-end-line="60" selection-end-column="49" />
               <folding>
-                <element signature="e#0#734#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#356#357#0" expanded="true" />
+                <element signature="e#439#440#0" expanded="true" />
+                <element signature="e#489#490#0" expanded="true" />
+                <element signature="e#549#550#0" expanded="true" />
+                <element signature="e#601#602#0" expanded="true" />
+                <element signature="e#659#660#0" expanded="true" />
+                <element signature="e#711#712#0" expanded="true" />
+                <element signature="e#767#768#0" expanded="true" />
+                <element signature="e#819#820#0" expanded="true" />
+                <element signature="e#877#878#0" expanded="true" />
+                <element signature="e#927#928#0" expanded="true" />
+                <element signature="e#989#990#0" expanded="true" />
+                <element signature="e#1041#1042#0" expanded="true" />
+                <element signature="e#1099#1100#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Tusoteuthis.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/aquatic_dinosaurs/Tusoteuthis.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" column="5" lean-forward="false" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Plesiosaur.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/aquatic_dinosaurs/Plesiosaur.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="2" lean-forward="true" selection-start-line="17" selection-start-column="2" selection-end-line="20" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PlesiosaurTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/dinosaurs_test/aqatic_dinosaurs_test/PlesiosaurTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-653">
+              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="29" />
+              <folding>
+                <element signature="e#352#353#0" expanded="true" />
+                <element signature="e#432#433#0" expanded="true" />
+                <element signature="e#481#482#0" expanded="true" />
+                <element signature="e#541#542#0" expanded="true" />
+                <element signature="e#592#593#0" expanded="true" />
+                <element signature="e#647#648#0" expanded="true" />
+                <element signature="e#698#699#0" expanded="true" />
+                <element signature="e#753#754#0" expanded="true" />
+                <element signature="e#804#805#0" expanded="true" />
+                <element signature="e#861#862#0" expanded="true" />
+                <element signature="e#910#911#0" expanded="true" />
+                <element signature="e#971#972#0" expanded="true" />
+                <element signature="e#1022#1023#0" expanded="true" />
+                <element signature="e#1079#1080#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -85,8 +154,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -386,9 +455,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/paddocks_test/AquaticPaddockTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/paddocks/Paddocks.java" />
-        <option value="$PROJECT_DIR$/src/main/java/paddocks/CarnivorePaddock.java" />
         <option value="$PROJECT_DIR$/src/test/java/paddocks_test/CarnivorePaddockTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/paddocks/HerbivorePaddock.java" />
         <option value="$PROJECT_DIR$/src/test/java/paddocks_test/HerbivorePaddockTest.java" />
@@ -396,7 +462,6 @@
         <option value="$PROJECT_DIR$/src/main/java/dinosaurs/Tusoteuthis.java" />
         <option value="$PROJECT_DIR$/src/main/java/dinosaurs/Plesiosaur.java" />
         <option value="$PROJECT_DIR$/src/main/java/aqatic_dionsaurs/AqaticDionsaurs.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Dinosaur.java" />
         <option value="$PROJECT_DIR$/src/main/java/aqatic_dionsaurs/Tusoteuthis.java" />
         <option value="$PROJECT_DIR$/src/main/java/aqatic_dionsaurs/AqaticDinosaurs.java" />
         <option value="$PROJECT_DIR$/src/main/java/dinosaurs/aqatic_dionsaurs/AqaticDinosaurs.java" />
@@ -414,29 +479,33 @@
         <option value="$PROJECT_DIR$/src/main/java/dinosaurs/carnivore_dionsaurs/CarnivorousDinosaurs.java" />
         <option value="$PROJECT_DIR$/src/main/java/dinosaurs/carnivore_dionsaurs/Allosaurus.java" />
         <option value="$PROJECT_DIR$/src/test/java/dinosaurs_test/carnivorous_dinosaurs_test/Allosaurus.java" />
-        <option value="$PROJECT_DIR$/src/main/java/aquatic_dinosaurs/AqaticDinosaurs.java" />
-        <option value="$PROJECT_DIR$/src/main/java/aquatic_dinosaurs/Plesiosaur.java" />
-        <option value="$PROJECT_DIR$/src/main/java/aquatic_dinosaurs/Tusoteuthis.java" />
-        <option value="$PROJECT_DIR$/src/main/java/carnivore_dionsaurs/Allosaurus.java" />
+        <option value="$PROJECT_DIR$/src/test/java/dinosaurs_food_test/LeavesTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/dinosaurs_food_test/PigTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Dinosaurs.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Dinosaur.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dinosaurs_food/Leaves.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dinosaurs_food/Pig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dinosaurs_food/IFeed.java" />
+        <option value="$PROJECT_DIR$/src/main/java/IFeed.java" />
         <option value="$PROJECT_DIR$/src/main/java/carnivore_dionsaurs/CarnivorousDinosaurs.java" />
-        <option value="$PROJECT_DIR$/src/main/java/carnivore_dionsaurs/Utahraptor.java" />
-        <option value="$PROJECT_DIR$/src/main/java/herbivore_dinosaurs/Stegosaurus.java" />
         <option value="$PROJECT_DIR$/src/main/java/herbivore_dinosaurs/HerbivoreDionsaurs.java" />
-        <option value="$PROJECT_DIR$/src/main/java/herbivore_dinosaurs/Triceratops.java" />
+        <option value="$PROJECT_DIR$/src/main/java/aquatic_dinosaurs/AqaticDinosaurs.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dinosaurs/IFeed.java" />
+        <option value="$PROJECT_DIR$/src/test/java/dinosaurs_food_test/FishTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dinosaurs/Dinosaur.java" />
         <option value="$PROJECT_DIR$/src/test/java/dinosaurs_test/aqatic_dinosaurs_test/PlesiosaurTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/dinosaurs_test/aqatic_dinosaurs_test/TusoteuthisTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dinosaurs_food/Fish.java" />
+        <option value="$PROJECT_DIR$/src/main/java/aquatic_dinosaurs/Plesiosaur.java" />
+        <option value="$PROJECT_DIR$/src/main/java/herbivore_dinosaurs/Stegosaurus.java" />
+        <option value="$PROJECT_DIR$/src/main/java/herbivore_dinosaurs/Triceratops.java" />
+        <option value="$PROJECT_DIR$/src/main/java/carnivore_dionsaurs/Utahraptor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/carnivore_dionsaurs/Allosaurus.java" />
         <option value="$PROJECT_DIR$/src/test/java/dinosaurs_test/carnivorous_dinosaurs_test/AllosaurusTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/dinosaurs_test/carnivorous_dinosaurs_test/UtahraptorTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/dinosaurs_test/herbivore_dinosaurs_test/StegosaurusTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/dinosaurs_test/herbivore_dinosaurs_test/TriceratopsTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dinosaurs_food/IFeed.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Dinosaurs.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dinosaurs_food/Fish.java" />
-        <option value="$PROJECT_DIR$/src/test/java/dinosaurs_food_test/LeavesTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dinosaurs_food/Leaves.java" />
-        <option value="$PROJECT_DIR$/src/test/java/dinosaurs_food_test/FishTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/dinosaurs_food_test/PigTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dinosaurs_food/Pig.java" />
+        <option value="$PROJECT_DIR$/src/test/java/dinosaurs_test/aqatic_dinosaurs_test/TusoteuthisTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/aquatic_dinosaurs/Tusoteuthis.java" />
       </list>
     </option>
   </component>
@@ -511,7 +580,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="dinosaurs_food" type="462c0819:PsiDirectoryNode" />
+              <item name="dinosaurs" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Jurassic_Park" type="b2602c69:ProjectViewProjectNode" />
@@ -520,14 +589,6 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="herbivore_dinosaurs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Jurassic_Park" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Jurassic_Park" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="paddocks" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Jurassic_Park" type="b2602c69:ProjectViewProjectNode" />
@@ -585,14 +646,6 @@
               <item name="dinosaurs_test" type="462c0819:PsiDirectoryNode" />
               <item name="herbivore_dinosaurs_test" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Jurassic_Park" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Jurassic_Park" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="paddocks_test" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -617,7 +670,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PigTest.pigHasHealthVlaue">
+  <component name="RunManager" selected="JUnit.TusoteuthisTest.tusoteuthisCanFeed">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -637,26 +690,6 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
-    </configuration>
-    <configuration name="All in Jurassic_Park_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="Jurassic_Park_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="package" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
     </configuration>
     <configuration name="FishTest.canFeed" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
@@ -683,19 +716,19 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="FishTest.fishHasHealthValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PlesiosaurTest.plesiosaurCanFeed" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="dinosaurs_food_test.*" />
+          <option name="PATTERN" value="dinosaurs_test.aqatic_dinosaurs_test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="Jurassic_Park_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="dinosaurs_food_test" />
-      <option name="MAIN_CLASS_NAME" value="dinosaurs_food_test.FishTest" />
-      <option name="METHOD_NAME" value="fishHasHealthValue" />
+      <option name="PACKAGE_NAME" value="dinosaurs_test.aqatic_dinosaurs_test" />
+      <option name="MAIN_CLASS_NAME" value="dinosaurs_test.aqatic_dinosaurs_test.PlesiosaurTest" />
+      <option name="METHOD_NAME" value="plesiosaurCanFeed" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -708,44 +741,19 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="LeavesTest.leavesHasHealthValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TusoteuthisTest.tusoteuthisCanFeed" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="dinosaurs_food_test.*" />
+          <option name="PATTERN" value="dinosaurs_test.aqatic_dinosaurs_test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="Jurassic_Park_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="dinosaurs_food_test" />
-      <option name="MAIN_CLASS_NAME" value="dinosaurs_food_test.LeavesTest" />
-      <option name="METHOD_NAME" value="leavesHasHealthValue" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="PigTest.pigHasHealthVlaue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="dinosaurs_food_test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="Jurassic_Park_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="dinosaurs_food_test" />
-      <option name="MAIN_CLASS_NAME" value="dinosaurs_food_test.PigTest" />
-      <option name="METHOD_NAME" value="pigHasHealthVlaue" />
+      <option name="PACKAGE_NAME" value="dinosaurs_test.aqatic_dinosaurs_test" />
+      <option name="MAIN_CLASS_NAME" value="dinosaurs_test.aqatic_dinosaurs_test.TusoteuthisTest" />
+      <option name="METHOD_NAME" value="tusoteuthisCanFeed" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -767,6 +775,56 @@
       <option name="MAIN_CLASS_NAME" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="dinosaurs_test in Jurassic_Park_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="dinosaurs_test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Jurassic_Park_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="dinosaurs_test" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="paddocks_test in Jurassic_Park_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="paddocks_test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Jurassic_Park_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="paddocks_test" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="package" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -819,19 +877,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.All in Jurassic_Park_test" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.FishTest.canFeed" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.FishTest.fishHasHealthValue" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.LeavesTest.leavesHasHealthValue" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.PigTest.pigHasHealthVlaue" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.dinosaurs_test in Jurassic_Park_test" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.paddocks_test in Jurassic_Park_test" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.FishTest.canFeed" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.PlesiosaurTest.plesiosaurCanFeed" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.TusoteuthisTest.tusoteuthisCanFeed" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.PigTest.pigHasHealthVlaue" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.LeavesTest.leavesHasHealthValue" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.FishTest.fishHasHealthValue" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.FishTest.canFeed" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.All in Jurassic_Park_test" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.TusoteuthisTest.tusoteuthisCanFeed" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.PlesiosaurTest.plesiosaurCanFeed" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.FishTest.canFeed" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.paddocks_test in Jurassic_Park_test" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.dinosaurs_test in Jurassic_Park_test" />
       </list>
     </recent_temporary>
   </component>
@@ -852,11 +910,8 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_Jurassic_Park_test - 2018.01.08 at 10h 36m 28s.xml">
+    <history-entry file="All_in_Jurassic_Park_test - 2018.01.08 at 13h 30m 52s.xml">
       <configuration name="All in Jurassic_Park_test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AllosaurusTest_allosaurusCanTakeDamage - 2018.01.08 at 10h 23m 27s.xml">
-      <configuration name="AllosaurusTest.allosaurusCanTakeDamage" configurationId="JUnit" />
     </history-entry>
     <history-entry file="FishTest_canFeed - 2018.01.08 at 10h 44m 54s.xml">
       <configuration name="FishTest.canFeed" configurationId="JUnit" />
@@ -873,14 +928,17 @@
     <history-entry file="PigTest_pigHasHealthVlaue - 2018.01.08 at 13h 29m 20s.xml">
       <configuration name="PigTest.pigHasHealthVlaue" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StegosaurusTest_stegosaurusCanTakeDamage - 2018.01.08 at 10h 33m 12s.xml">
-      <configuration name="StegosaurusTest.stegosaurusCanTakeDamage" configurationId="JUnit" />
+    <history-entry file="PlesiosaurTest_plesiosaurCanFeed - 2018.01.08 at 14h 55m 10s.xml">
+      <configuration name="PlesiosaurTest.plesiosaurCanFeed" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TriceratopsTest_triceratopsCanTakeDamage - 2018.01.08 at 10h 35m 28s.xml">
-      <configuration name="TriceratopsTest.triceratopsCanTakeDamage" configurationId="JUnit" />
+    <history-entry file="TusoteuthisTest_tusoteuthisCanFeed - 2018.01.08 at 15h 04m 37s.xml">
+      <configuration name="TusoteuthisTest.tusoteuthisCanFeed" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UtahraptorTest_utahraptorCanTakeDamage - 2018.01.08 at 10h 26m 03s.xml">
-      <configuration name="UtahraptorTest.utahraptorCanTakeDamage" configurationId="JUnit" />
+    <history-entry file="dinosaurs_test_in_Jurassic_Park_test - 2018.01.08 at 14h 37m 49s.xml">
+      <configuration name="dinosaurs_test in Jurassic_Park_test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="paddocks_test_in_Jurassic_Park_test - 2018.01.08 at 14h 38m 00s.xml">
+      <configuration name="paddocks_test in Jurassic_Park_test" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -895,7 +953,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -927,21 +985,21 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/Dinosaurs.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/dinosaurs/Dinosaur.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="81" lean-forward="false" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="81" />
           <folding>
-            <element signature="e#555#556#0" expanded="true" />
-            <element signature="e#587#588#0" expanded="true" />
-            <element signature="e#617#618#0" expanded="true" />
-            <element signature="e#651#652#0" expanded="true" />
-            <element signature="e#681#682#0" expanded="true" />
-            <element signature="e#715#716#0" expanded="true" />
-            <element signature="e#745#746#0" expanded="true" />
-            <element signature="e#779#780#0" expanded="true" />
-            <element signature="e#810#811#0" expanded="true" />
-            <element signature="e#842#843#0" expanded="true" />
+            <element signature="e#571#572#0" expanded="true" />
+            <element signature="e#603#604#0" expanded="true" />
+            <element signature="e#633#634#0" expanded="true" />
+            <element signature="e#667#668#0" expanded="true" />
+            <element signature="e#697#698#0" expanded="true" />
+            <element signature="e#731#732#0" expanded="true" />
+            <element signature="e#761#762#0" expanded="true" />
+            <element signature="e#795#796#0" expanded="true" />
+            <element signature="e#826#827#0" expanded="true" />
+            <element signature="e#858#859#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -960,18 +1018,6 @@
           <caret line="40" column="5" lean-forward="true" selection-start-line="17" selection-start-column="3" selection-end-line="40" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="false" />
-            <element signature="e#284#285#0" expanded="false" />
-            <element signature="e#369#370#0" expanded="false" />
-            <element signature="e#419#420#0" expanded="false" />
-            <element signature="e#479#480#0" expanded="false" />
-            <element signature="e#531#532#0" expanded="false" />
-            <element signature="e#587#588#0" expanded="false" />
-            <element signature="e#639#640#0" expanded="false" />
-            <element signature="e#695#696#0" expanded="false" />
-            <element signature="e#747#748#0" expanded="false" />
-            <element signature="e#806#807#0" expanded="false" />
-            <element signature="e#856#857#0" expanded="false" />
-            <element signature="e#920#921#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -998,18 +1044,6 @@
           <caret line="44" column="173" lean-forward="false" selection-start-line="44" selection-start-column="159" selection-end-line="44" selection-end-column="173" />
           <folding>
             <element signature="imports" expanded="false" />
-            <element signature="e#284#285#0" expanded="false" />
-            <element signature="e#369#370#0" expanded="false" />
-            <element signature="e#419#420#0" expanded="false" />
-            <element signature="e#479#480#0" expanded="false" />
-            <element signature="e#531#532#0" expanded="false" />
-            <element signature="e#587#588#0" expanded="false" />
-            <element signature="e#639#640#0" expanded="false" />
-            <element signature="e#695#696#0" expanded="false" />
-            <element signature="e#747#748#0" expanded="false" />
-            <element signature="e#806#807#0" expanded="false" />
-            <element signature="e#856#857#0" expanded="false" />
-            <element signature="e#920#921#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1139,19 +1173,93 @@
           <caret line="4" column="14" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="false" />
-            <element signature="e#282#283#0" expanded="false" />
-            <element signature="e#366#367#0" expanded="false" />
-            <element signature="e#415#416#0" expanded="false" />
-            <element signature="e#474#475#0" expanded="false" />
-            <element signature="e#525#526#0" expanded="false" />
-            <element signature="e#580#581#0" expanded="false" />
-            <element signature="e#631#632#0" expanded="false" />
-            <element signature="e#686#687#0" expanded="false" />
-            <element signature="e#737#738#0" expanded="false" />
-            <element signature="e#795#796#0" expanded="false" />
-            <element signature="e#844#845#0" expanded="false" />
-            <element signature="e#909#910#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/dinosaurs_food_test/LeavesTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="43" lean-forward="true" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#239#240#0" expanded="false" />
+            <element signature="e#276#277#0" expanded="false" />
+            <element signature="e#328#329#0" expanded="false" />
+            <element signature="e#385#386#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/dinosaurs_food_test/PigTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="41" lean-forward="false" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#227#228#0" expanded="false" />
+            <element signature="e#258#259#0" expanded="false" />
+            <element signature="e#307#308#0" expanded="false" />
+            <element signature="e#362#363#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dinosaurs_food/Leaves.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="37" lean-forward="false" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
+          <folding>
+            <element signature="e#115#116#0" expanded="true" />
+            <element signature="e#152#153#0" expanded="true" />
+            <element signature="e#187#188#0" expanded="true" />
+            <element signature="e#226#227#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dinosaurs_food/Pig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="34" lean-forward="false" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
+          <folding>
+            <element signature="e#109#110#0" expanded="true" />
+            <element signature="e#147#148#0" expanded="true" />
+            <element signature="e#182#183#0" expanded="true" />
+            <element signature="e#221#222#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dinosaurs_food/Edible.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="25" lean-forward="true" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/herbivore_dinosaurs/HerbivoreDionsaurs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/carnivore_dionsaurs/CarnivorousDinosaurs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/aquatic_dinosaurs/AqaticDinosaurs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="54" lean-forward="false" selection-start-line="4" selection-start-column="54" selection-end-line="4" selection-end-column="54" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1163,240 +1271,109 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/aquatic_dinosaurs/AqaticDinosaurs.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/IFeed.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="61" lean-forward="false" selection-start-line="7" selection-start-column="61" selection-end-line="7" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/aquatic_dinosaurs/Tusoteuthis.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="61" lean-forward="false" selection-start-line="7" selection-start-column="61" selection-end-line="7" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/carnivore_dionsaurs/Allosaurus.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="61" lean-forward="false" selection-start-line="7" selection-start-column="61" selection-end-line="7" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/carnivore_dionsaurs/CarnivorousDinosaurs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="109" lean-forward="false" selection-start-line="6" selection-start-column="109" selection-end-line="6" selection-end-column="109" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/carnivore_dionsaurs/Utahraptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="61" lean-forward="false" selection-start-line="7" selection-start-column="61" selection-end-line="7" selection-end-column="61" />
+        <state relative-caret-position="45">
+          <caret line="3" column="17" lean-forward="false" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/herbivore_dinosaurs/Stegosaurus.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="61" lean-forward="false" selection-start-line="7" selection-start-column="61" selection-end-line="7" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/herbivore_dinosaurs/HerbivoreDionsaurs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="107" lean-forward="false" selection-start-line="4" selection-start-column="107" selection-end-line="4" selection-end-column="107" />
+        <state relative-caret-position="225">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/herbivore_dinosaurs/Triceratops.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="61" lean-forward="false" selection-start-line="7" selection-start-column="61" selection-end-line="7" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/aquatic_dinosaurs/Plesiosaur.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="61" lean-forward="false" selection-start-line="7" selection-start-column="61" selection-end-line="7" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/dinosaurs_test/aqatic_dinosaurs_test/PlesiosaurTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="52" column="0" lean-forward="true" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+        <state relative-caret-position="210">
+          <caret line="14" column="3" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#275#276#0" expanded="false" />
-            <element signature="e#355#356#0" expanded="false" />
-            <element signature="e#404#405#0" expanded="false" />
-            <element signature="e#464#465#0" expanded="false" />
-            <element signature="e#515#516#0" expanded="false" />
-            <element signature="e#570#571#0" expanded="false" />
-            <element signature="e#621#622#0" expanded="false" />
-            <element signature="e#676#677#0" expanded="false" />
-            <element signature="e#727#728#0" expanded="false" />
-            <element signature="e#784#785#0" expanded="false" />
-            <element signature="e#833#834#0" expanded="false" />
-            <element signature="e#894#895#0" expanded="false" />
-            <element signature="e#945#946#0" expanded="false" />
-            <element signature="e#1002#1003#0" expanded="false" />
+            <element signature="e#0#530#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/dinosaurs_test/aqatic_dinosaurs_test/TusoteuthisTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/carnivore_dionsaurs/Utahraptor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="52" column="0" lean-forward="true" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+        <state relative-caret-position="105">
+          <caret line="7" column="63" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/carnivore_dionsaurs/Allosaurus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding>
-            <element signature="e#412#413#0" expanded="false" />
-            <element signature="e#472#473#0" expanded="false" />
-            <element signature="e#524#525#0" expanded="false" />
-            <element signature="e#582#583#0" expanded="false" />
-            <element signature="e#634#635#0" expanded="false" />
-            <element signature="e#690#691#0" expanded="false" />
-            <element signature="e#742#743#0" expanded="false" />
-            <element signature="e#800#801#0" expanded="false" />
-            <element signature="e#850#851#0" expanded="false" />
-            <element signature="e#912#913#0" expanded="false" />
-            <element signature="e#964#965#0" expanded="false" />
-            <element signature="e#1022#1023#0" expanded="false" />
+            <element signature="e#0#469#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/dinosaurs_test/carnivorous_dinosaurs_test/AllosaurusTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="50" column="48" lean-forward="false" selection-start-line="50" selection-start-column="48" selection-end-line="50" selection-end-column="48" />
-          <folding>
-            <element signature="e#282#283#0" expanded="false" />
-            <element signature="e#366#367#0" expanded="false" />
-            <element signature="e#415#416#0" expanded="false" />
-            <element signature="e#474#475#0" expanded="false" />
-            <element signature="e#525#526#0" expanded="false" />
-            <element signature="e#580#581#0" expanded="false" />
-            <element signature="e#631#632#0" expanded="false" />
-            <element signature="e#686#687#0" expanded="false" />
-            <element signature="e#737#738#0" expanded="false" />
-            <element signature="e#795#796#0" expanded="false" />
-            <element signature="e#844#845#0" expanded="false" />
-            <element signature="e#909#910#0" expanded="false" />
-            <element signature="e#960#961#0" expanded="false" />
-            <element signature="e#1017#1018#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="150">
+          <caret line="10" column="28" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/dinosaurs_test/carnivorous_dinosaurs_test/UtahraptorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="50" column="48" lean-forward="false" selection-start-line="50" selection-start-column="48" selection-end-line="50" selection-end-column="48" />
-          <folding>
-            <element signature="e#415#416#0" expanded="false" />
-            <element signature="e#474#475#0" expanded="false" />
-            <element signature="e#525#526#0" expanded="false" />
-            <element signature="e#580#581#0" expanded="false" />
-            <element signature="e#631#632#0" expanded="false" />
-            <element signature="e#686#687#0" expanded="false" />
-            <element signature="e#737#738#0" expanded="false" />
-            <element signature="e#795#796#0" expanded="false" />
-            <element signature="e#844#845#0" expanded="false" />
-            <element signature="e#909#910#0" expanded="false" />
-            <element signature="e#960#961#0" expanded="false" />
-            <element signature="e#1017#1018#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="253">
+          <caret line="43" column="39" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/dinosaurs_test/herbivore_dinosaurs_test/StegosaurusTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="262">
-          <caret line="49" column="33" lean-forward="false" selection-start-line="49" selection-start-column="33" selection-end-line="49" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#284#285#0" expanded="false" />
-            <element signature="e#369#370#0" expanded="false" />
-            <element signature="e#419#420#0" expanded="false" />
-            <element signature="e#479#480#0" expanded="false" />
-            <element signature="e#531#532#0" expanded="false" />
-            <element signature="e#587#588#0" expanded="false" />
-            <element signature="e#639#640#0" expanded="false" />
-            <element signature="e#695#696#0" expanded="false" />
-            <element signature="e#747#748#0" expanded="false" />
-            <element signature="e#806#807#0" expanded="false" />
-            <element signature="e#856#857#0" expanded="false" />
-            <element signature="e#920#921#0" expanded="false" />
-            <element signature="e#972#973#0" expanded="false" />
-            <element signature="e#1031#1032#0" expanded="false" />
-          </folding>
+          <caret line="49" column="31" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/dinosaurs_test/herbivore_dinosaurs_test/TriceratopsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="50" column="50" lean-forward="false" selection-start-line="50" selection-start-column="50" selection-end-line="50" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#419#420#0" expanded="false" />
-            <element signature="e#479#480#0" expanded="false" />
-            <element signature="e#531#532#0" expanded="false" />
-            <element signature="e#587#588#0" expanded="false" />
-            <element signature="e#639#640#0" expanded="false" />
-            <element signature="e#695#696#0" expanded="false" />
-            <element signature="e#747#748#0" expanded="false" />
-            <element signature="e#806#807#0" expanded="false" />
-            <element signature="e#856#857#0" expanded="false" />
-            <element signature="e#920#921#0" expanded="false" />
-            <element signature="e#972#973#0" expanded="false" />
-            <element signature="e#1031#1032#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dinosaurs_food/IFeed.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="8" lean-forward="false" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+        <state relative-caret-position="224">
+          <caret line="50" column="29" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Dinosaurs.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/dinosaurs/IFeed.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+        <state relative-caret-position="90">
+          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dinosaurs/Dinosaur.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="53" column="5" lean-forward="true" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
           <folding>
-            <element signature="e#555#556#0" expanded="true" />
-            <element signature="e#587#588#0" expanded="true" />
-            <element signature="e#617#618#0" expanded="true" />
-            <element signature="e#651#652#0" expanded="true" />
-            <element signature="e#681#682#0" expanded="true" />
-            <element signature="e#715#716#0" expanded="true" />
-            <element signature="e#745#746#0" expanded="true" />
-            <element signature="e#779#780#0" expanded="true" />
-            <element signature="e#810#811#0" expanded="true" />
-            <element signature="e#842#843#0" expanded="true" />
-            <element signature="e#872#873#0" expanded="true" />
-            <element signature="e#911#912#0" expanded="true" />
-            <element signature="e#953#954#0" expanded="true" />
-            <element signature="e#995#996#0" expanded="true" />
+            <element signature="e#571#572#0" expanded="true" />
+            <element signature="e#603#604#0" expanded="true" />
+            <element signature="e#633#634#0" expanded="true" />
+            <element signature="e#667#668#0" expanded="true" />
+            <element signature="e#697#698#0" expanded="true" />
+            <element signature="e#731#732#0" expanded="true" />
+            <element signature="e#761#762#0" expanded="true" />
+            <element signature="e#795#796#0" expanded="true" />
+            <element signature="e#826#827#0" expanded="true" />
+            <element signature="e#858#859#0" expanded="true" />
+            <element signature="e#888#889#0" expanded="true" />
+            <element signature="e#927#928#0" expanded="true" />
+            <element signature="e#969#970#0" expanded="true" />
+            <element signature="e#1011#1012#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1404,71 +1381,89 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/dinosaurs_food/Fish.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="25" lean-forward="true" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dinosaurs_food/Leaves.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="23" lean-forward="false" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+          <caret line="0" column="23" lean-forward="true" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
           <folding>
-            <element signature="e#98#99#0" expanded="true" />
-            <element signature="e#135#136#0" expanded="true" />
-            <element signature="e#170#171#0" expanded="true" />
-            <element signature="e#209#210#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dinosaurs_food/Pig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="32" lean-forward="false" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
-          <folding>
-            <element signature="e#92#93#0" expanded="true" />
-            <element signature="e#130#131#0" expanded="true" />
-            <element signature="e#165#166#0" expanded="true" />
-            <element signature="e#204#205#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/dinosaurs_food_test/LeavesTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="43" lean-forward="true" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#239#240#0" expanded="true" />
-            <element signature="e#276#277#0" expanded="true" />
-            <element signature="e#328#329#0" expanded="true" />
-            <element signature="e#385#386#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/dinosaurs_food_test/PigTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="41" lean-forward="false" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#227#228#0" expanded="true" />
-            <element signature="e#258#259#0" expanded="true" />
-            <element signature="e#307#308#0" expanded="true" />
-            <element signature="e#362#363#0" expanded="true" />
+            <element signature="e#111#112#0" expanded="true" />
+            <element signature="e#149#150#0" expanded="true" />
+            <element signature="e#184#185#0" expanded="true" />
+            <element signature="e#223#224#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/dinosaurs_food_test/FishTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+        <state relative-caret-position="392">
+          <caret line="33" column="1" lean-forward="true" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
           <folding>
-            <element signature="e#0#734#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#340#341#0" expanded="true" />
+            <element signature="e#373#374#0" expanded="true" />
+            <element signature="e#424#425#0" expanded="true" />
+            <element signature="e#480#481#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/dinosaurs_test/aqatic_dinosaurs_test/PlesiosaurTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-653">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="29" />
+          <folding>
+            <element signature="e#352#353#0" expanded="true" />
+            <element signature="e#432#433#0" expanded="true" />
+            <element signature="e#481#482#0" expanded="true" />
+            <element signature="e#541#542#0" expanded="true" />
+            <element signature="e#592#593#0" expanded="true" />
+            <element signature="e#647#648#0" expanded="true" />
+            <element signature="e#698#699#0" expanded="true" />
+            <element signature="e#753#754#0" expanded="true" />
+            <element signature="e#804#805#0" expanded="true" />
+            <element signature="e#861#862#0" expanded="true" />
+            <element signature="e#910#911#0" expanded="true" />
+            <element signature="e#971#972#0" expanded="true" />
+            <element signature="e#1022#1023#0" expanded="true" />
+            <element signature="e#1079#1080#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/aquatic_dinosaurs/Plesiosaur.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="2" lean-forward="true" selection-start-line="17" selection-start-column="2" selection-end-line="20" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/aquatic_dinosaurs/Tusoteuthis.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="5" lean-forward="false" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/dinosaurs_test/aqatic_dinosaurs_test/TusoteuthisTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="60" column="49" lean-forward="false" selection-start-line="60" selection-start-column="49" selection-end-line="60" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#356#357#0" expanded="true" />
+            <element signature="e#439#440#0" expanded="true" />
+            <element signature="e#489#490#0" expanded="true" />
+            <element signature="e#549#550#0" expanded="true" />
+            <element signature="e#601#602#0" expanded="true" />
+            <element signature="e#659#660#0" expanded="true" />
+            <element signature="e#711#712#0" expanded="true" />
+            <element signature="e#767#768#0" expanded="true" />
+            <element signature="e#819#820#0" expanded="true" />
+            <element signature="e#877#878#0" expanded="true" />
+            <element signature="e#927#928#0" expanded="true" />
+            <element signature="e#989#990#0" expanded="true" />
+            <element signature="e#1041#1042#0" expanded="true" />
+            <element signature="e#1099#1100#0" expanded="true" />
           </folding>
         </state>
       </provider>

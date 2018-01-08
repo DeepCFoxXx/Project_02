@@ -1,8 +1,8 @@
 package dinosaurs;
 
-import dinosaurs_food.Fish;
+import dinosaurs_food.Edible;
 
-public abstract class Dinosaurs {
+public abstract class Dinosaur implements IFeed{
 
     private String name;
     private int hieght;
@@ -11,7 +11,7 @@ public abstract class Dinosaurs {
     private String type;
     private int healthValue;
 
-    public Dinosaurs(String name, int height, int length, int weight, String type, int healthValue) {
+    public Dinosaur(String name, int height, int length, int weight, String type, int healthValue) {
         this.name = name;
         this.hieght = height;
         this.length = length;
@@ -46,6 +46,11 @@ public abstract class Dinosaurs {
 
     public void takeDamage(int damage) {
         this.healthValue -= damage;
+    }
+
+    public void feed(int edible){
+        //work out what happens when dinsosaur eats an edible
+        this.healthValue += edible;
     }
 
 }

@@ -1,6 +1,6 @@
 package dinosaurs_food;
 
-public class Pig {
+public class Pig implements Edible{
 
     private int healthValue;
 

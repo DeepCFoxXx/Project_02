@@ -1,5 +1,7 @@
 package aquatic_dinosaurs;
 
+import dinosaurs_food.Edible;
+
 public class Tusoteuthis extends AqaticDinosaurs{
 
     private String discription;
@@ -11,6 +13,11 @@ public class Tusoteuthis extends AqaticDinosaurs{
 
     public String getDiscription() {
         return "Large ancestor of modern day giant squid, Eating habits included siphoning and drinking preys blood.";
+    }
+
+    public void feed(Edible edible){
+        //work out what happens when dinsosaur eats an edible
+        this.feed(edible);
     }
 
 }

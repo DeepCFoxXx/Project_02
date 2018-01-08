@@ -1,5 +1,7 @@
 package aquatic_dinosaurs;
 
+import dinosaurs_food.Edible;
+
 public class Plesiosaur extends AqaticDinosaurs {
 
     private String discription;
@@ -11,6 +13,11 @@ public class Plesiosaur extends AqaticDinosaurs {
 
     public String getDiscription() {
         return "Plesiosaurs were an order of large carnivorous marine reptiles from 245 million years ago.";
+    }
+
+    public void feed(Edible edible){
+        //work out what happens when dinsosaur eats an edible
+        this.feed(edible);
     }
 
 }
