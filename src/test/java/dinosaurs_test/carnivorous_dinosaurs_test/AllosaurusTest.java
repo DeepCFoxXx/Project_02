@@ -12,7 +12,7 @@ public class AllosaurusTest {
 
     @Before
     public void before() {
-        allosaurus = new Allosaurus("Pablo", 2, 7, 1600, "Carnivorous");
+        allosaurus = new Allosaurus("Pablo", 2, 7, 1600, "Carnivorous", 700);
     }
 
     @Test
@@ -40,6 +40,10 @@ public class AllosaurusTest {
         assertEquals("Carnivorous", allosaurus.getType());
     }
 
+    @Test
+    public void allosaurusHasHealth() {
+        assertEquals(700, allosaurus.getHealth());
+    }
     @Test
     public void allosaurusHasDiscription() {
         assertEquals("The name Allosaurus means different lizard.", allosaurus.getDiscription());

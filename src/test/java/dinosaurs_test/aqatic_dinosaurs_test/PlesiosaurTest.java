@@ -12,7 +12,7 @@ public class PlesiosaurTest {
 
     @Before
     public void before() {
-        plesiosaur = new Plesiosaur("Nessie", 1, 4, 450, "Aquatic");
+        plesiosaur = new Plesiosaur("Nessie", 1, 4, 450, "Aquatic", 500);
     }
 
     @Test
@@ -38,6 +38,11 @@ public class PlesiosaurTest {
     @Test
     public void plesiosaurHasType() {
         assertEquals("Aquatic", plesiosaur.getType());
+    }
+
+    @Test
+    public void plesiosaurHasHealth() {
+        assertEquals(500, plesiosaur.getHealth());
     }
 
     @Test

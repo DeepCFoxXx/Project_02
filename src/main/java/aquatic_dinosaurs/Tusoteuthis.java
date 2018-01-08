@@ -4,8 +4,8 @@ public class Tusoteuthis extends AqaticDinosaurs{
 
     private String discription;
 
-    public Tusoteuthis(String name, int height, int length, int weight, String type) {
-        super(name, height, length, weight, type);
+    public Tusoteuthis(String name, int height, int length, int weight, String type, int healthValue) {
+        super(name, height, length, weight, type, healthValue);
         this.discription = discription;
     }
 

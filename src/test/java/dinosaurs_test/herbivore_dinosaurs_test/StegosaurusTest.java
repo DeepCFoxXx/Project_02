@@ -12,7 +12,7 @@ public class StegosaurusTest {
 
     @Before
     public void before() {
-        stegosaurus = new Stegosaurus("Steve", 3, 7, 3100, "Herbivore");
+        stegosaurus = new Stegosaurus("Steve", 3, 7, 3100, "Herbivore", 1000);
     }
 
     @Test
@@ -38,6 +38,11 @@ public class StegosaurusTest {
     @Test
     public void stegosaurusHasType() {
         assertEquals("Herbivore", stegosaurus.getType());
+    }
+
+    @Test
+    public void stegosaurusHasHealth() {
+        assertEquals(1000, stegosaurus.getHealth());
     }
 
     @Test

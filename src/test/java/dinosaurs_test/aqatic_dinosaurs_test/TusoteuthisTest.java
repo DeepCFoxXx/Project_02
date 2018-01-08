@@ -12,7 +12,7 @@ public class TusoteuthisTest {
 
     @Before
     public void before() {
-        tusoteuthis = new Tusoteuthis("Simon", 500, 8, 200, "Aquatic");
+        tusoteuthis = new Tusoteuthis("Simon", 500, 8, 200, "Aquatic", 300);
     }
 
     @Test
@@ -38,6 +38,11 @@ public class TusoteuthisTest {
     @Test
     public void tusoteuthisHasType() {
         assertEquals("Aquatic", tusoteuthis.getType());
+    }
+
+    @Test
+    public void tusoteuthisHasHealth() {
+        assertEquals(300, tusoteuthis.getHealth());
     }
 
     @Test

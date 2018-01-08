@@ -12,7 +12,7 @@ public class UtahraptorTest {
 
     @Before
     public void before() {
-        utahraptor = new Utahraptor("Laura", 2, 4, 1000, "Carnivorous");
+        utahraptor = new Utahraptor("Laura", 2, 4, 1000, "Carnivorous", 600);
     }
 
     @Test
@@ -38,6 +38,11 @@ public class UtahraptorTest {
     @Test
     public void utahraptorHasType() {
         assertEquals("Carnivorous", utahraptor.getType());
+    }
+
+    @Test
+    public void utahraptorHasHealth() {
+        assertEquals(600, utahraptor.getHealth());
     }
 
     @Test

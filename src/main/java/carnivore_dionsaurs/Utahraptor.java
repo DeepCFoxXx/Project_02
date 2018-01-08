@@ -4,8 +4,8 @@ public class Utahraptor extends CarnivorousDinosaurs {
 
     private String discription;
 
-    public Utahraptor(String name, int height, int length, int weight, String type) {
-        super(name, height, length, weight, type);
+    public Utahraptor(String name, int height, int length, int weight, String type, int healthValue) {
+        super(name, height, length, weight, type, healthValue);
         this.discription = discription;
     }
 

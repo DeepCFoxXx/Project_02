@@ -12,7 +12,7 @@ public class TriceratopsTest {
 
     @Before
     public void before() {
-        triceratops = new Triceratops("Becky", 3, 6, 5900, "Herbivore");
+        triceratops = new Triceratops("Becky", 3, 6, 5900, "Herbivore", 2000);
     }
 
     @Test
@@ -38,6 +38,11 @@ public class TriceratopsTest {
     @Test
     public void triceratopsHasType() {
         assertEquals("Herbivore", triceratops.getType());
+    }
+
+    @Test
+    public void triceratopsHasHealth() {
+        assertEquals(2000, triceratops.getHealth());
     }
 
     @Test

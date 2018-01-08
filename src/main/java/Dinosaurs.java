@@ -7,13 +7,15 @@ public abstract class Dinosaurs {
     private int length;
     private int weight;
     private String type;
+    private int healthValue;
 
-    public Dinosaurs(String name, int height, int length, int weight, String type) {
+    public Dinosaurs(String name, int height, int length, int weight, String type, int healthValue) {
         this.name = name;
         this.hieght = height;
         this.length = length;
         this.weight = weight;
         this.type = type;
+        this.healthValue = healthValue;
     }
 
     public String getName() {
@@ -36,4 +38,7 @@ public abstract class Dinosaurs {
         return this.type;
     }
 
+    public int getHealth() {
+        return this.healthValue;
+    }
 }

@@ -4,8 +4,8 @@ public class Stegosaurus extends HerbivoreDionsaurs {
 
     private String discription;
 
-    public Stegosaurus(String name, int height, int length, int weight, String type) {
-        super(name, height, length, weight, type);
+    public Stegosaurus(String name, int height, int length, int weight, String type, int healthValue) {
+        super(name, height, length, weight, type, healthValue);
         this.discription = discription;
     }
 
