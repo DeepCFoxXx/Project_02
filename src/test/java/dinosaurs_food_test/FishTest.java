@@ -24,11 +24,4 @@ public class FishTest {
         assertEquals(100, fish.getHealthValue());
     }
 
-    @Test
-    public void canFeed() {
-        dinosaur = new Plesiosaur("Nessie", 1, 4, 450, "Aquatic", 500);
-        fish = new Fish();
-        dinosaur.feed(fish);
-        assertEquals(600, dinosaur.getHealth());
-    }
 }
