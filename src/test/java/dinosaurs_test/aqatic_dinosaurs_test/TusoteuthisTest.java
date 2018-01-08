@@ -46,6 +46,12 @@ public class TusoteuthisTest {
     }
 
     @Test
+    public void tusoteuthisCanTakeDamage() {
+        tusoteuthis.takeDamage(50);
+        assertEquals(250, tusoteuthis.getHealth());
+    }
+
+    @Test
     public void tusoteuthisHasDiscription() {
         assertEquals("Large ancestor of modern day giant squid, Eating habits included siphoning and drinking preys blood.", tusoteuthis.getDiscription());
     }
