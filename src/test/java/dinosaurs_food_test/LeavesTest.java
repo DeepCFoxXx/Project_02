@@ -23,11 +23,4 @@ public class LeavesTest {
         assertEquals(15, leaves.getHelathValue());
     }
 
-    @Test
-    public void canFeed() {
-        dionsaur = new Stegosaurus("Steve", 3, 7, 3100, "Herbivore", 1000);
-        leaves = new Leaves();
-        dionsaur.feed(leaves);
-        assertEquals(1015, dionsaur.getHealth());
-    }
 }
