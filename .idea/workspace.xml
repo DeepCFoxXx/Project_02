@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b085f0f-e8a1-4d8b-b5d6-84333f225ec9" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/carnivore_dionsaurs/Allosaurus.java" afterPath="$PROJECT_DIR$/src/main/java/carnivore_dionsaurs/Allosaurus.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/dinosaurs_food_test/FishTest.java" afterPath="$PROJECT_DIR$/src/test/java/dinosaurs_food_test/FishTest.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/dinosaurs_test/carnivorous_dinosaurs_test/AllosaurusTest.java" afterPath="$PROJECT_DIR$/src/test/java/dinosaurs_test/carnivorous_dinosaurs_test/AllosaurusTest.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/carnivore_dionsaurs/Utahraptor.java" afterPath="$PROJECT_DIR$/src/main/java/carnivore_dionsaurs/Utahraptor.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/dinosaurs_test/carnivorous_dinosaurs_test/UtahraptorTest.java" afterPath="$PROJECT_DIR$/src/test/java/dinosaurs_test/carnivorous_dinosaurs_test/UtahraptorTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -51,8 +50,8 @@
       <file leaf-file-name="Allosaurus.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/carnivore_dionsaurs/Allosaurus.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="5" lean-forward="false" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+            <state relative-caret-position="255">
+              <caret line="17" column="3" lean-forward="false" selection-start-line="17" selection-start-column="3" selection-end-line="20" selection-end-column="5" />
               <folding>
                 <element signature="e#398#399#0" expanded="true" />
                 <element signature="e#466#467#0" expanded="true" />
@@ -61,7 +60,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AllosaurusTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AllosaurusTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/dinosaurs_test/carnivorous_dinosaurs_test/AllosaurusTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="217">
@@ -87,37 +86,40 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Stegosaurus.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/herbivore_dinosaurs/Stegosaurus.java">
+      <file leaf-file-name="Utahraptor.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/carnivore_dionsaurs/Utahraptor.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
-              <caret line="20" column="5" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="20" selection-end-column="5" />
-              <folding />
+              <caret line="20" column="5" lean-forward="false" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+              <folding>
+                <element signature="e#399#400#0" expanded="true" />
+                <element signature="e#462#463#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StegosaurusTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/dinosaurs_test/herbivore_dinosaurs_test/StegosaurusTest.java">
+      <file leaf-file-name="UtahraptorTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/dinosaurs_test/carnivorous_dinosaurs_test/UtahraptorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="388">
-              <caret line="69" column="1" lean-forward="true" selection-start-line="69" selection-start-column="1" selection-end-line="69" selection-end-column="1" />
+            <state relative-caret-position="337">
+              <caret line="62" column="0" lean-forward="true" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#363#364#0" expanded="true" />
-                <element signature="e#448#449#0" expanded="true" />
-                <element signature="e#498#499#0" expanded="true" />
-                <element signature="e#558#559#0" expanded="true" />
-                <element signature="e#610#611#0" expanded="true" />
-                <element signature="e#666#667#0" expanded="true" />
-                <element signature="e#718#719#0" expanded="true" />
-                <element signature="e#774#775#0" expanded="true" />
-                <element signature="e#826#827#0" expanded="true" />
-                <element signature="e#885#886#0" expanded="true" />
-                <element signature="e#935#936#0" expanded="true" />
-                <element signature="e#999#1000#0" expanded="true" />
-                <element signature="e#1051#1052#0" expanded="true" />
-                <element signature="e#1110#1111#0" expanded="true" />
+                <element signature="e#358#359#0" expanded="true" />
+                <element signature="e#442#443#0" expanded="true" />
+                <element signature="e#491#492#0" expanded="true" />
+                <element signature="e#550#551#0" expanded="true" />
+                <element signature="e#601#602#0" expanded="true" />
+                <element signature="e#656#657#0" expanded="true" />
+                <element signature="e#707#708#0" expanded="true" />
+                <element signature="e#762#763#0" expanded="true" />
+                <element signature="e#813#814#0" expanded="true" />
+                <element signature="e#871#872#0" expanded="true" />
+                <element signature="e#920#921#0" expanded="true" />
+                <element signature="e#985#986#0" expanded="true" />
+                <element signature="e#1036#1037#0" expanded="true" />
+                <element signature="e#1093#1094#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -468,8 +470,6 @@
         <option value="$PROJECT_DIR$/src/test/java/dinosaurs_test/aqatic_dinosaurs_test/PlesiosaurTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/dinosaurs_food/Fish.java" />
         <option value="$PROJECT_DIR$/src/main/java/aquatic_dinosaurs/Plesiosaur.java" />
-        <option value="$PROJECT_DIR$/src/main/java/carnivore_dionsaurs/Utahraptor.java" />
-        <option value="$PROJECT_DIR$/src/test/java/dinosaurs_test/carnivorous_dinosaurs_test/UtahraptorTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/dinosaurs_test/aqatic_dinosaurs_test/TusoteuthisTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/aquatic_dinosaurs/Tusoteuthis.java" />
         <option value="$PROJECT_DIR$/src/test/java/dinosaurs_test/herbivore_dinosaurs_test/StegosaurusTest.java" />
@@ -480,6 +480,8 @@
         <option value="$PROJECT_DIR$/src/test/java/dinosaurs_food_test/FishTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/carnivore_dionsaurs/Allosaurus.java" />
         <option value="$PROJECT_DIR$/src/test/java/dinosaurs_test/carnivorous_dinosaurs_test/AllosaurusTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/carnivore_dionsaurs/Utahraptor.java" />
+        <option value="$PROJECT_DIR$/src/test/java/dinosaurs_test/carnivorous_dinosaurs_test/UtahraptorTest.java" />
       </list>
     </option>
   </component>
@@ -536,22 +538,6 @@
               <item name="Jurassic_Park" type="b2602c69:ProjectViewProjectNode" />
               <item name="Jurassic_Park" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="carnivore_dionsaurs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Jurassic_Park" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Jurassic_Park" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="herbivore_dinosaurs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Jurassic_Park" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Jurassic_Park" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
@@ -568,24 +554,6 @@
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="dinosaurs_test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Jurassic_Park" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Jurassic_Park" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="dinosaurs_test" type="462c0819:PsiDirectoryNode" />
-              <item name="carnivorous_dinosaurs_test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Jurassic_Park" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Jurassic_Park" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="dinosaurs_test" type="462c0819:PsiDirectoryNode" />
-              <item name="herbivore_dinosaurs_test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -611,7 +579,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AllosaurusTest.allosaurusCanFeed">
+  <component name="RunManager" selected="JUnit.All in Jurassic_Park_test">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -631,6 +599,26 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
+    </configuration>
+    <configuration name="All in Jurassic_Park_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="Jurassic_Park_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
     </configuration>
     <configuration name="AllosaurusTest.allosaurusCanFeed" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
@@ -682,56 +670,6 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="LeavesTest.canFeed" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="dinosaurs_food_test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="Jurassic_Park_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="dinosaurs_food_test" />
-      <option name="MAIN_CLASS_NAME" value="dinosaurs_food_test.LeavesTest" />
-      <option name="METHOD_NAME" value="canFeed" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="StegosaurusTest.stegosaurusCanFeed" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="dinosaurs_test.herbivore_dinosaurs_test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="Jurassic_Park_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="dinosaurs_test.herbivore_dinosaurs_test" />
-      <option name="MAIN_CLASS_NAME" value="dinosaurs_test.herbivore_dinosaurs_test.StegosaurusTest" />
-      <option name="METHOD_NAME" value="stegosaurusCanFeed" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
     <configuration name="TriceratopsTest.triceratopsCanFeed" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -745,6 +683,31 @@
       <option name="PACKAGE_NAME" value="dinosaurs_test.herbivore_dinosaurs_test" />
       <option name="MAIN_CLASS_NAME" value="dinosaurs_test.herbivore_dinosaurs_test.TriceratopsTest" />
       <option name="METHOD_NAME" value="triceratopsCanFeed" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="UtahraptorTest.utahraptorCanFeed" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="dinosaurs_test.carnivorous_dinosaurs_test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Jurassic_Park_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="dinosaurs_test.carnivorous_dinosaurs_test" />
+      <option name="MAIN_CLASS_NAME" value="dinosaurs_test.carnivorous_dinosaurs_test.UtahraptorTest" />
+      <option name="METHOD_NAME" value="utahraptorCanFeed" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -818,19 +781,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.LeavesTest.canFeed" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.StegosaurusTest.stegosaurusCanFeed" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.LeavesTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.TriceratopsTest.triceratopsCanFeed" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.AllosaurusTest.allosaurusCanFeed" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.LeavesTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.TriceratopsTest.triceratopsCanFeed" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.AllosaurusTest.allosaurusCanFeed" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.UtahraptorTest.utahraptorCanFeed" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.All in Jurassic_Park_test" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.AllosaurusTest.allosaurusCanFeed" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.TriceratopsTest.triceratopsCanFeed" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.LeavesTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.LeavesTest.canFeed" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.StegosaurusTest.stegosaurusCanFeed" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.All in Jurassic_Park_test" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.UtahraptorTest.utahraptorCanFeed" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.AllosaurusTest.allosaurusCanFeed" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.TriceratopsTest.triceratopsCanFeed" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.LeavesTest" />
       </list>
     </recent_temporary>
   </component>
@@ -851,6 +814,9 @@
     <servers />
   </component>
   <component name="TestHistory">
+    <history-entry file="All_in_Jurassic_Park_test - 2018.01.08 at 15h 33m 30s.xml">
+      <configuration name="All in Jurassic_Park_test" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="AllosaurusTest_allosaurusCanFeed - 2018.01.08 at 15h 29m 48s.xml">
       <configuration name="AllosaurusTest.allosaurusCanFeed" configurationId="JUnit" />
     </history-entry>
@@ -875,16 +841,12 @@
     <history-entry file="TusoteuthisTest_tusoteuthisCanFeed - 2018.01.08 at 15h 04m 37s.xml">
       <configuration name="TusoteuthisTest.tusoteuthisCanFeed" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="dinosaurs_test_in_Jurassic_Park_test - 2018.01.08 at 14h 37m 49s.xml">
-      <configuration name="dinosaurs_test in Jurassic_Park_test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="paddocks_test_in_Jurassic_Park_test - 2018.01.08 at 14h 38m 00s.xml">
-      <configuration name="paddocks_test in Jurassic_Park_test" configurationId="JUnit" />
+    <history-entry file="UtahraptorTest_utahraptorCanFeed - 2018.01.08 at 15h 33m 04s.xml">
+      <configuration name="UtahraptorTest.utahraptorCanFeed" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1194,22 +1156,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/carnivore_dionsaurs/Utahraptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="63" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/dinosaurs_test/carnivorous_dinosaurs_test/UtahraptorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="43" column="39" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/dinosaurs/IFeed.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -1432,17 +1378,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/carnivore_dionsaurs/Allosaurus.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="5" lean-forward="false" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-          <folding>
-            <element signature="e#398#399#0" expanded="true" />
-            <element signature="e#466#467#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/dinosaurs_test/herbivore_dinosaurs_test/StegosaurusTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="388">
@@ -1471,6 +1406,52 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="217">
           <caret line="60" column="48" lean-forward="false" selection-start-line="60" selection-start-column="48" selection-end-line="60" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#358#359#0" expanded="true" />
+            <element signature="e#442#443#0" expanded="true" />
+            <element signature="e#491#492#0" expanded="true" />
+            <element signature="e#550#551#0" expanded="true" />
+            <element signature="e#601#602#0" expanded="true" />
+            <element signature="e#656#657#0" expanded="true" />
+            <element signature="e#707#708#0" expanded="true" />
+            <element signature="e#762#763#0" expanded="true" />
+            <element signature="e#813#814#0" expanded="true" />
+            <element signature="e#871#872#0" expanded="true" />
+            <element signature="e#920#921#0" expanded="true" />
+            <element signature="e#985#986#0" expanded="true" />
+            <element signature="e#1036#1037#0" expanded="true" />
+            <element signature="e#1093#1094#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/carnivore_dionsaurs/Allosaurus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="3" lean-forward="false" selection-start-line="17" selection-start-column="3" selection-end-line="20" selection-end-column="5" />
+          <folding>
+            <element signature="e#398#399#0" expanded="true" />
+            <element signature="e#466#467#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/carnivore_dionsaurs/Utahraptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="5" lean-forward="false" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+          <folding>
+            <element signature="e#399#400#0" expanded="true" />
+            <element signature="e#462#463#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/dinosaurs_test/carnivorous_dinosaurs_test/UtahraptorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="62" column="0" lean-forward="true" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#358#359#0" expanded="true" />
