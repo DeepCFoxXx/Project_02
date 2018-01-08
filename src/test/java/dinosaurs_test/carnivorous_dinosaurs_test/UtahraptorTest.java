@@ -46,6 +46,12 @@ public class UtahraptorTest {
     }
 
     @Test
+    public void utahraptorCanTakeDamage() {
+        utahraptor.takeDamage(50);
+        assertEquals(550, utahraptor.getHealth());
+    }
+
+    @Test
     public void utahraptorHasDiscription() {
         assertEquals("Largest known member of raptor family.", utahraptor.getDiscription());
     }
