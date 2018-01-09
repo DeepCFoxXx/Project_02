@@ -67,7 +67,7 @@ public class HerbivorePaddockTest {
     }
 
     @Test
-    public void canTransfer() {
+    public void canTransferToPaddock2() {
         herbivoreDionsaurs = new Stegosaurus("Sara", 5, 8, 2900, "Herbivore", 1150);
         herbivorePaddock.addToPaddock(herbivoreDionsaurs);
         herbivorePaddock.transferToPaddock(herbivoreDionsaurs, herbivorePaddock2);
@@ -117,6 +117,15 @@ public class HerbivorePaddockTest {
     public void herbivorePaddock2CanRemove() {
         herbivorePaddock2.addToPaddock(herbivoreDionsaurs);
         herbivorePaddock2.removeFromPaddock(herbivoreDionsaurs);
+        assertEquals(0, herbivorePaddock2.getCount());
+    }
+
+    @Test
+    public void canTransferToPaddock1() {
+        herbivoreDionsaurs = new Triceratops("Mario", 3, 6, 4100, "Herbivore", 1700);
+        herbivorePaddock2.addToPaddock(herbivoreDionsaurs);
+        herbivorePaddock2.transferToPaddock(herbivoreDionsaurs, herbivorePaddock);
+        assertEquals(1, herbivorePaddock.getCount());
         assertEquals(0, herbivorePaddock2.getCount());
     }
 

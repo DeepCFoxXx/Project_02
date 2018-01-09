@@ -28,9 +28,9 @@ public class HerbivorePaddock extends Paddocks {
         this.herbivorePaddock.remove(herbivoreDinosaurs);
     }
 
-    public void transferToPaddock(HerbivoreDinosaur herbivoreDinosaur, HerbivorePaddock herbivorePaddock2) {
+    public void transferToPaddock(HerbivoreDinosaur herbivoreDinosaur, HerbivorePaddock newPaddock) {
         int index = herbivorePaddock.indexOf(herbivoreDinosaur);
-        HerbivoreDinosaur dinosaurToRemove = herbivorePaddock.remove(index);
-        herbivorePaddock2.addToPaddock(dinosaurToRemove);
+        HerbivoreDinosaur dinosaurToRemove = this.herbivorePaddock.remove(index);
+        newPaddock.addToPaddock(dinosaurToRemove);
     }
 }
