@@ -48,4 +48,11 @@ public class AquaticPaddockTest {
         aquaticPaddock.addToPaddock(aqaticDinosaurs);
         assertEquals(1, aquaticPaddock.getCount());
     }
+
+    @Test
+    public void aquaticPaddockCanAddPlesiosaur() {
+        aqaticDinosaurs = new Plesiosaur("Jessica", 2, 7, 500, "Aqatic", 600);
+        aquaticPaddock.addToPaddock(aqaticDinosaurs);
+        assertEquals(1, aquaticPaddock.getCount());
+    }
 }
