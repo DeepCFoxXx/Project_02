@@ -1,6 +1,7 @@
 package paddocks_test;
 
 import herbivore_dinosaurs.HerbivoreDionsaurs;
+import herbivore_dinosaurs.Stegosaurus;
 import org.junit.Before;
 import org.junit.Test;
 import paddocks.HerbivorePaddock;
@@ -48,5 +49,11 @@ public class HerbivorePaddockTest {
         assertEquals(1, herbivorePaddock.getCount());
     }
 
+    @Test
+    public void herbivorePaddockCanAddStegosaurus() {
+        herbivoreDionsaurs = new Stegosaurus("Tom", 5, 7, 2800, "Herbivore", 1100);
+        herbivorePaddock.addToPaddock(herbivoreDionsaurs);
+        assertEquals(1, herbivorePaddock.getCount());
+    }
 
 }
