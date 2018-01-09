@@ -10,7 +10,7 @@ public class CarnivorePaddock extends Paddocks {
 
     public CarnivorePaddock(String name, String type, int size, int defenseValue) {
         super(name, type, size, defenseValue);
-        this.carnivorePaddock = new ArrayList<CarnivorousDinosaurs>();
+        carnivorePaddock = new ArrayList<>();
     }
 
     public int getCount() {
@@ -23,5 +23,11 @@ public class CarnivorePaddock extends Paddocks {
 
     public void removeFromPaddock(CarnivorousDinosaurs carnivorousDinosaurs) {
         this.carnivorePaddock.remove(carnivorousDinosaurs);
+    }
+
+    public void transferToPaddock(CarnivorousDinosaurs carnivorousDinosaurs, CarnivorePaddock newPaddock) {
+        int index = carnivorePaddock.indexOf(carnivorousDinosaurs);
+        CarnivorousDinosaurs dinosaurToRemove = this.carnivorePaddock.remove(index);
+        newPaddock.addToPaddock(dinosaurToRemove);
     }
 }
