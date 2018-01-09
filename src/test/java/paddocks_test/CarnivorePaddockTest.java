@@ -3,7 +3,6 @@ package paddocks_test;
 import carnivore_dionsaurs.Allosaurus;
 import carnivore_dionsaurs.CarnivorousDinosaurs;
 import carnivore_dionsaurs.Utahraptor;
-import herbivore_dinosaurs.Stegosaurus;
 import org.junit.Before;
 import org.junit.Test;
 import paddocks.CarnivorePaddock;
