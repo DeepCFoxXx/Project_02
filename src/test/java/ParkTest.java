@@ -31,7 +31,13 @@ public class ParkTest {
      }
 
      @Test
-    public void parksArrayListOfPaddocksStartsEmpty() {
+     public void parksArrayListOfPaddocksStartsEmpty() {
          assertEquals(0, park.getCount());
+     }
+
+     @Test
+     public void parkCanAdd() {
+         park.addToPark(paddocks);
+         assertEquals(1, park.getCount());
      }
 }

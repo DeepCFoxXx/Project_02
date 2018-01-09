@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5b085f0f-e8a1-4d8b-b5d6-84333f225ec9" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/src/main/java/Park.java" afterPath="$PROJECT_DIR$/src/main/java/Park.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/paddocks/HerbivorePaddock.java" afterPath="$PROJECT_DIR$/src/main/java/paddocks/HerbivorePaddock.java" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ParkTest.java" afterPath="$PROJECT_DIR$/src/test/java/ParkTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -67,14 +66,16 @@
       <file leaf-file-name="Park.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Park.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="36" lean-forward="false" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
+            <state relative-caret-position="345">
+              <caret line="23" column="36" lean-forward="false" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#288#289#0" expanded="true" />
                 <element signature="e#319#320#0" expanded="true" />
                 <element signature="e#348#349#0" expanded="true" />
                 <element signature="e#391#392#0" expanded="true" />
+                <element signature="e#439#440#0" expanded="true" />
+                <element signature="e#482#483#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -83,14 +84,14 @@
       <file leaf-file-name="ParkTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/ParkTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="381">
-              <caret line="34" column="37" lean-forward="true" selection-start-line="34" selection-start-column="37" selection-end-line="34" selection-end-column="37" />
+            <state relative-caret-position="366">
+              <caret line="39" column="23" lean-forward="false" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#782#783#0" expanded="true" />
                 <element signature="e#845#846#0" expanded="true" />
-                <element signature="e#913#914#0" expanded="true" />
-                <element signature="e#963#964#0" expanded="true" />
+                <element signature="e#914#915#0" expanded="true" />
+                <element signature="e#964#965#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -564,7 +565,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ParkTest.parksArrayListOfPaddocksStartsEmpty">
+  <component name="RunManager" selected="JUnit.ParkTest.parkCanAdd">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -594,31 +595,6 @@
       <option name="MAIN_CLASS_NAME" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="package" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="HerbivorePaddockTest.herbivorePaddockCanAdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="paddocks_test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="Jurassic_Park_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="paddocks_test" />
-      <option name="MAIN_CLASS_NAME" value="paddocks_test.HerbivorePaddockTest" />
-      <option name="METHOD_NAME" value="herbivorePaddockCanAdd" />
-      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -668,6 +644,26 @@
       <option name="PACKAGE_NAME" value="paddocks_test" />
       <option name="MAIN_CLASS_NAME" value="paddocks_test.HerbivorePaddockTest" />
       <option name="METHOD_NAME" value="herbivorePaddockCanRemove" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="ParkTest.parkCanAdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="Jurassic_Park_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ParkTest" />
+      <option name="METHOD_NAME" value="parkCanAdd" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -761,19 +757,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.HerbivorePaddockTest.herbivorePaddockCanAdd" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.HerbivorePaddockTest.herbivorePaddockCanAddStegosaurus" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.HerbivorePaddockTest.herbivorePaddockCanRemove" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.All in Jurassic_Park_test" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.ParkTest.parksArrayListOfPaddocksStartsEmpty" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.HerbivorePaddockTest.herbivorePaddockCanAddStegosaurus" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.HerbivorePaddockTest.herbivorePaddockCanRemove" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.All in Jurassic_Park_test" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.ParkTest.parksArrayListOfPaddocksStartsEmpty" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.ParkTest.parkCanAdd" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.ParkTest.parksArrayListOfPaddocksStartsEmpty" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.All in Jurassic_Park_test" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.HerbivorePaddockTest.herbivorePaddockCanRemove" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.HerbivorePaddockTest.herbivorePaddockCanAddStegosaurus" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.HerbivorePaddockTest.herbivorePaddockCanAdd" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.ParkTest.parkCanAdd" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.ParkTest.parksArrayListOfPaddocksStartsEmpty" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.All in Jurassic_Park_test" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.HerbivorePaddockTest.herbivorePaddockCanRemove" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.HerbivorePaddockTest.herbivorePaddockCanAddStegosaurus" />
       </list>
     </recent_temporary>
   </component>
@@ -806,9 +802,6 @@
     <history-entry file="CarnivorePaddockTest_carnivorePaddockCanRemove - 2018.01.09 at 10h 23m 20s.xml">
       <configuration name="CarnivorePaddockTest.carnivorePaddockCanRemove" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CarnivorePaddockTest_carnivorePaddockcanAdd - 2018.01.09 at 10h 12m 28s.xml">
-      <configuration name="CarnivorePaddockTest.carnivorePaddockcanAdd" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="HerbivorePaddockTest_herbivorePaddockCanAdd - 2018.01.09 at 10h 34m 05s.xml">
       <configuration name="HerbivorePaddockTest.herbivorePaddockCanAdd" configurationId="JUnit" />
     </history-entry>
@@ -820,6 +813,9 @@
     </history-entry>
     <history-entry file="HerbivorePaddockTest_herbivorePaddockStartsEmpty - 2018.01.09 at 10h 30m 13s.xml">
       <configuration name="HerbivorePaddockTest.herbivorePaddockStartsEmpty" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ParkTest_parkCanAdd - 2018.01.09 at 13h 11m 30s.xml">
+      <configuration name="ParkTest.parkCanAdd" configurationId="JUnit" />
     </history-entry>
     <history-entry file="ParkTest_parksArrayListOfPaddocksStartsEmpty - 2018.01.09 at 13h 08m 05s.xml">
       <configuration name="ParkTest.parksArrayListOfPaddocksStartsEmpty" configurationId="JUnit" />
@@ -1427,28 +1423,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Park.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="36" lean-forward="false" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
+        <state relative-caret-position="345">
+          <caret line="23" column="36" lean-forward="false" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#288#289#0" expanded="true" />
             <element signature="e#319#320#0" expanded="true" />
             <element signature="e#348#349#0" expanded="true" />
             <element signature="e#391#392#0" expanded="true" />
+            <element signature="e#439#440#0" expanded="true" />
+            <element signature="e#482#483#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ParkTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="34" column="37" lean-forward="true" selection-start-line="34" selection-start-column="37" selection-end-line="34" selection-end-column="37" />
+        <state relative-caret-position="366">
+          <caret line="39" column="23" lean-forward="false" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#782#783#0" expanded="true" />
             <element signature="e#845#846#0" expanded="true" />
-            <element signature="e#913#914#0" expanded="true" />
-            <element signature="e#963#964#0" expanded="true" />
+            <element signature="e#914#915#0" expanded="true" />
+            <element signature="e#964#965#0" expanded="true" />
           </folding>
         </state>
       </provider>
