@@ -6,22 +6,22 @@ import java.util.ArrayList;
 
 public class AquaticPaddock extends Paddocks{
 
-    private ArrayList<AqaticDinosaurs> dinosaurs;
+    private ArrayList<AqaticDinosaurs> aqaticPaddock;
 
     public AquaticPaddock(String name, String type, int size, int defenseValue){
         super(name, type, size, defenseValue);
-        this.dinosaurs = new ArrayList<AqaticDinosaurs>();
+        this.aqaticPaddock = new ArrayList<AqaticDinosaurs>();
     }
 
     public int getCount() {
-        return this.dinosaurs.size();
+        return this.aqaticPaddock.size();
     }
 
     public void addToPaddock(AqaticDinosaurs aqaticDinosaurs) {
-        this.dinosaurs.add(aqaticDinosaurs);
+        this.aqaticPaddock.add(aqaticDinosaurs);
     }
 
     public void removeFromPaddock(AqaticDinosaurs aqaticDinosaurs) {
-        this.dinosaurs.remove(aqaticDinosaurs);
+        this.aqaticPaddock.remove(aqaticDinosaurs);
     }
 }

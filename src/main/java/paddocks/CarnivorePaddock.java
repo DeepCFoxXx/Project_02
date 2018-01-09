@@ -6,22 +6,22 @@ import java.util.ArrayList;
 
 public class CarnivorePaddock extends Paddocks {
 
-    private ArrayList<CarnivorousDinosaurs> dinosaurs;
+    private ArrayList<CarnivorousDinosaurs> carnivorePaddock;
 
     public CarnivorePaddock(String name, String type, int size, int defenseValue) {
         super(name, type, size, defenseValue);
-        this.dinosaurs = new ArrayList<CarnivorousDinosaurs>();
+        this.carnivorePaddock = new ArrayList<CarnivorousDinosaurs>();
     }
 
     public int getCount() {
-        return this.dinosaurs.size();
+        return this.carnivorePaddock.size();
     }
 
     public void addToPaddock(CarnivorousDinosaurs carnivorousDinosaurs) {
-        this.dinosaurs.add(carnivorousDinosaurs);
+        this.carnivorePaddock.add(carnivorousDinosaurs);
     }
 
     public void removeFromPaddock(CarnivorousDinosaurs carnivorousDinosaurs) {
-        this.dinosaurs.remove(carnivorousDinosaurs);
+        this.carnivorePaddock.remove(carnivorousDinosaurs);
     }
 }

@@ -6,23 +6,25 @@ import java.util.ArrayList;
 
 public class HerbivorePaddock extends Paddocks {
 
-    private ArrayList<HerbivoreDionsaurs> dionsaurs;
+    private ArrayList<HerbivoreDionsaurs> herbivorePaddock;
+    private ArrayList<HerbivoreDionsaurs> herbivorePaddock2;
 
 
     public HerbivorePaddock(String name, String type, int size, int defenseValue) {
         super(name, type, size, defenseValue);
-        dionsaurs = new ArrayList<HerbivoreDionsaurs>();
+        herbivorePaddock = new ArrayList<>();
+        herbivorePaddock2 = new ArrayList<>();
     }
 
     public int getCount() {
-        return this.dionsaurs.size();
+        return this.herbivorePaddock.size();
     }
 
     public void addToPaddock(HerbivoreDionsaurs herbivoreDionsaurs) {
-        this.dionsaurs.add(herbivoreDionsaurs);
+        this.herbivorePaddock.add(herbivoreDionsaurs);
     }
 
     public void removeFromPaddock(HerbivoreDionsaurs herbivoreDionsaurs) {
-        this.dionsaurs.remove(herbivoreDionsaurs);
+        this.herbivorePaddock.remove(herbivoreDionsaurs);
     }
 }

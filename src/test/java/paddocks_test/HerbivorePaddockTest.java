@@ -63,4 +63,11 @@ public class HerbivorePaddockTest {
         assertEquals(0, herbivorePaddock.getCount());
     }
 
+    @Test
+    public void canTransfer() {
+        herbivoreDionsaurs = new Stegosaurus("Sara", 5, 8, 2900, "Herbivore", 1150);
+        herbivorePaddock.addToPaddock(herbivoreDionsaurs);
+
+    }
+
 }
