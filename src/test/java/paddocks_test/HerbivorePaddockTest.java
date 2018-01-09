@@ -34,4 +34,11 @@ public class HerbivorePaddockTest {
     public void aquaticPaddockHasDefenseValue() {
         assertEquals(5000, herbivorePaddock.getDefenseValue());
     }
+
+    @Test
+    public void herbivorePaddockStartsEmpty() {
+        assertEquals(0, herbivorePaddock.getCount());
+    }
+
+
 }

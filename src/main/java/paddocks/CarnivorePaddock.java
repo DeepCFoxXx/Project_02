@@ -20,4 +20,8 @@ public class CarnivorePaddock extends Paddocks {
     public void addToPaddock(CarnivorousDinosaurs carnivorousDinosaurs) {
         this.dinosaurs.add(carnivorousDinosaurs);
     }
+
+    public void removeFromPaddock(CarnivorousDinosaurs carnivorousDinosaurs) {
+        this.dinosaurs.remove(carnivorousDinosaurs);
+    }
 }
