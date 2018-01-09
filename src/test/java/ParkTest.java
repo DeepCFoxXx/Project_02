@@ -47,4 +47,11 @@ public class ParkTest {
          park.addToPark(paddocks);
          assertEquals(1, park.getCount());
      }
+
+     @Test
+     public void parkCanRemove() {
+         park.addToPark(paddocks);
+         park.removeFromPark(paddocks);
+         assertEquals(0, park.getCount());
+     }
 }

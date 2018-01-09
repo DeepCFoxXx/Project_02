@@ -23,4 +23,8 @@ public class Park {
     public void addToPark(Paddocks paddocks) {
         this.paddocks.add(paddocks);
     }
+
+    public void removeFromPark(Paddocks paddocks) {
+        this.paddocks.remove(paddocks);
+    }
 }
