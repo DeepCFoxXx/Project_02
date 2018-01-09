@@ -121,5 +121,15 @@ public class CarnivorePaddockTest {
         assertEquals(0, carnivorePaddock2.getCount());
     }
 
+    @Test
+    public void canTransferToPaddock1() {
+        carnivorousDinosaurs = new Utahraptor("Paul", 2, 6, 900, "Carnivore", 850);
+        carnivorePaddock2.addToPaddock(carnivorousDinosaurs);
+        carnivorePaddock2.transferToPaddock(carnivorousDinosaurs, carnivorePaddock);
+        assertEquals(1, carnivorePaddock.getCount());
+        assertEquals(0, carnivorePaddock2.getCount());
+    }
+
+
 }
 
