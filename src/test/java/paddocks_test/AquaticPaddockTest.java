@@ -34,4 +34,9 @@ public class AquaticPaddockTest {
     public void aquaticPaddockHasDefenseValue() {
         assertEquals(1000, aquaticPaddock.getDefenseValue());
     }
+
+    @Test
+    public void aquaticPaddockStartsEmpty() {
+        assertEquals(0, aquaticPaddock.getCount());
+    }
 }
