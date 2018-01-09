@@ -1,6 +1,7 @@
 package paddocks_test;
 
 import carnivore_dionsaurs.CarnivorousDinosaurs;
+import carnivore_dionsaurs.Utahraptor;
 import org.junit.Before;
 import org.junit.Test;
 import paddocks.CarnivorePaddock;
@@ -44,6 +45,13 @@ public class CarnivorePaddockTest {
 
     @Test
     public void carnivorePaddockcanAdd() {
+        carnivorePaddock.addToPaddock(carnivorousDinosaurs);
+        assertEquals(1, carnivorePaddock.getCount());
+    }
+
+    @Test
+    public void carnivorePaddockCanAddUtahraptor() {
+        carnivorousDinosaurs = new Utahraptor("Frank", 2, 5, 1000, "Carnivorous", 600);
         carnivorePaddock.addToPaddock(carnivorousDinosaurs);
         assertEquals(1, carnivorePaddock.getCount());
     }
