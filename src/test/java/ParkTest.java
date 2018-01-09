@@ -29,4 +29,9 @@ public class ParkTest {
      public void parkHasName() {
          assertEquals("Jurassic Park", park.getName());
      }
+
+     @Test
+    public void parksArrayListOfPaddocksStartsEmpty() {
+         assertEquals(0, park.getCount());
+     }
 }

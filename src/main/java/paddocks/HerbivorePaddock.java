@@ -8,6 +8,7 @@ public class HerbivorePaddock extends Paddocks {
 
     private ArrayList<HerbivoreDionsaurs> dionsaurs;
 
+
     public HerbivorePaddock(String name, String type, int size, int defenseValue) {
         super(name, type, size, defenseValue);
         dionsaurs = new ArrayList<HerbivoreDionsaurs>();

@@ -16,4 +16,7 @@ public class Park {
        return this.name;
     }
 
+    public int getCount() {
+        return this.paddocks.size();
+    }
 }
