@@ -20,4 +20,8 @@ public class AquaticPaddock extends Paddocks{
     public void addToPaddock(AqaticDinosaurs aqaticDinosaurs) {
         this.dinosaurs.add(aqaticDinosaurs);
     }
+
+    public void removeFromPaddock(AqaticDinosaurs aqaticDinosaurs) {
+        this.dinosaurs.remove(aqaticDinosaurs);
+    }
 }

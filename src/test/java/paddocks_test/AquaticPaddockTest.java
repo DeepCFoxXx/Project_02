@@ -55,4 +55,11 @@ public class AquaticPaddockTest {
         aquaticPaddock.addToPaddock(aqaticDinosaurs);
         assertEquals(1, aquaticPaddock.getCount());
     }
+
+    @Test
+    public void aquaticPaddockCanReamove() {
+        aquaticPaddock.addToPaddock(aqaticDinosaurs);
+        aquaticPaddock.removeFromPaddock(aqaticDinosaurs);
+        assertEquals(0, aquaticPaddock.getCount());
+    }
 }
