@@ -16,4 +16,8 @@ public class CarnivorePaddock extends Paddocks {
     public int getCount() {
         return this.dinosaurs.size();
     }
+
+    public void addToPaddock(CarnivorousDinosaurs carnivorousDinosaurs) {
+        this.dinosaurs.add(carnivorousDinosaurs);
+    }
 }

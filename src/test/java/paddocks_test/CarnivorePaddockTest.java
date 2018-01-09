@@ -42,7 +42,11 @@ public class CarnivorePaddockTest {
         assertEquals(0, carnivorePaddock.getCount());
     }
 
-    
+    @Test
+    public void carnivorePaddockcanAdd() {
+        carnivorePaddock.addToPaddock(carnivorousDinosaurs);
+        assertEquals(1, carnivorePaddock.getCount());
+    }
 
 }
 
