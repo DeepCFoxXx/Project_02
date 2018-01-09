@@ -16,4 +16,8 @@ public class HerbivorePaddock extends Paddocks {
     public int getCount() {
         return this.dionsaurs.size();
     }
+
+    public void addToPaddock(HerbivoreDionsaurs herbivoreDionsaurs) {
+        this.dionsaurs.add(herbivoreDionsaurs);
+    }
 }
