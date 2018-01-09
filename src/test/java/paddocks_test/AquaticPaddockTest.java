@@ -1,5 +1,7 @@
 package paddocks_test;
 
+import aquatic_dinosaurs.AqaticDinosaurs;
+import aquatic_dinosaurs.Plesiosaur;
 import org.junit.Before;
 import org.junit.Test;
 import paddocks.AquaticPaddock;
@@ -9,6 +11,7 @@ import static org.junit.Assert.assertEquals;
 public class AquaticPaddockTest {
 
     AquaticPaddock aquaticPaddock;
+    AqaticDinosaurs aqaticDinosaurs;
 
     @Before
     public void before() {
@@ -38,5 +41,11 @@ public class AquaticPaddockTest {
     @Test
     public void aquaticPaddockStartsEmpty() {
         assertEquals(0, aquaticPaddock.getCount());
+    }
+
+    @Test
+    public void aquaticPaddockCanAdd() {
+        aquaticPaddock.addToPaddock(aqaticDinosaurs);
+        assertEquals(1, aquaticPaddock.getCount());
     }
 }

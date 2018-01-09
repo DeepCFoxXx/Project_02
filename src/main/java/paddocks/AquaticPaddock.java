@@ -16,4 +16,8 @@ public class AquaticPaddock extends Paddocks{
     public int getCount() {
         return this.dinosaurs.size();
     }
+
+    public void addToPaddock(AqaticDinosaurs aqaticDinosaurs) {
+        this.dinosaurs.add(aqaticDinosaurs);
+    }
 }
