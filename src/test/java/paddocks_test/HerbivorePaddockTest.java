@@ -56,4 +56,11 @@ public class HerbivorePaddockTest {
         assertEquals(1, herbivorePaddock.getCount());
     }
 
+    @Test
+    public void herbivorePaddockCanRemove() {
+        herbivorePaddock.addToPaddock(herbivoreDionsaurs);
+        herbivorePaddock.removeFromPaddock(herbivoreDionsaurs);
+        assertEquals(0, herbivorePaddock.getCount());
+    }
+
 }

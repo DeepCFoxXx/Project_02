@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b085f0f-e8a1-4d8b-b5d6-84333f225ec9" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/paddocks/HerbivorePaddock.java" afterPath="$PROJECT_DIR$/src/main/java/paddocks/HerbivorePaddock.java" />
       <change beforePath="$PROJECT_DIR$/src/test/java/paddocks_test/HerbivorePaddockTest.java" afterPath="$PROJECT_DIR$/src/test/java/paddocks_test/HerbivorePaddockTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -63,14 +64,16 @@
       <file leaf-file-name="HerbivorePaddock.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/paddocks/HerbivorePaddock.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="47" lean-forward="false" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
+            <state relative-caret-position="360">
+              <caret line="24" column="50" lean-forward="false" selection-start-line="24" selection-start-column="50" selection-end-line="24" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#421#422#0" expanded="true" />
                 <element signature="e#465#466#0" expanded="true" />
                 <element signature="e#536#537#0" expanded="true" />
                 <element signature="e#590#591#0" expanded="true" />
+                <element signature="e#666#667#0" expanded="true" />
+                <element signature="e#723#724#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -79,8 +82,8 @@
       <file leaf-file-name="HerbivorePaddockTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/paddocks_test/HerbivorePaddockTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="303">
-              <caret line="54" column="24" lean-forward="false" selection-start-line="54" selection-start-column="24" selection-end-line="54" selection-end-column="24" />
+            <state relative-caret-position="382">
+              <caret line="61" column="42" lean-forward="false" selection-start-line="61" selection-start-column="25" selection-end-line="61" selection-end-column="42" />
               <folding>
                 <element signature="e#554#555#0" expanded="true" />
                 <element signature="e#633#634#0" expanded="true" />
@@ -452,8 +455,8 @@
         <option value="$PROJECT_DIR$/src/test/java/paddocks_test/AquaticPaddockTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/paddocks_test/CarnivorePaddockTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/paddocks/CarnivorePaddock.java" />
-        <option value="$PROJECT_DIR$/src/main/java/paddocks/HerbivorePaddock.java" />
         <option value="$PROJECT_DIR$/src/test/java/paddocks_test/HerbivorePaddockTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/paddocks/HerbivorePaddock.java" />
       </list>
     </option>
   </component>
@@ -541,22 +544,6 @@
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Jurassic_Park" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Jurassic_Park" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="dinosaurs_test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Jurassic_Park" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Jurassic_Park" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="paddocks_test" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -581,7 +568,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.HerbivorePaddockTest.herbivorePaddockCanAddStegosaurus">
+  <component name="RunManager" selected="JUnit.All in Jurassic_Park_test">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -602,45 +589,15 @@
       <module name="" />
       <envs />
     </configuration>
-    <configuration name="CarnivorePaddockTest.carnivorePaddockCanAddUtahraptor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="paddocks_test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="All in Jurassic_Park_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="Jurassic_Park_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="paddocks_test" />
-      <option name="MAIN_CLASS_NAME" value="paddocks_test.CarnivorePaddockTest" />
-      <option name="METHOD_NAME" value="carnivorePaddockCanAddUtahraptor" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="CarnivorePaddockTest.carnivorePaddockCanRemove" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="paddocks_test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="Jurassic_Park_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="paddocks_test" />
-      <option name="MAIN_CLASS_NAME" value="paddocks_test.CarnivorePaddockTest" />
-      <option name="METHOD_NAME" value="carnivorePaddockCanRemove" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="package" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -690,6 +647,31 @@
       <option name="PACKAGE_NAME" value="paddocks_test" />
       <option name="MAIN_CLASS_NAME" value="paddocks_test.HerbivorePaddockTest" />
       <option name="METHOD_NAME" value="herbivorePaddockCanAddStegosaurus" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="HerbivorePaddockTest.herbivorePaddockCanRemove" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="paddocks_test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Jurassic_Park_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="paddocks_test" />
+      <option name="MAIN_CLASS_NAME" value="paddocks_test.HerbivorePaddockTest" />
+      <option name="METHOD_NAME" value="herbivorePaddockCanRemove" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -788,19 +770,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.CarnivorePaddockTest.carnivorePaddockCanAddUtahraptor" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.CarnivorePaddockTest.carnivorePaddockCanRemove" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.HerbivorePaddockTest.herbivorePaddockStartsEmpty" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.HerbivorePaddockTest.herbivorePaddockCanAdd" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.HerbivorePaddockTest.herbivorePaddockCanAddStegosaurus" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.HerbivorePaddockTest.herbivorePaddockStartsEmpty" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.HerbivorePaddockTest.herbivorePaddockCanAdd" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.HerbivorePaddockTest.herbivorePaddockCanAddStegosaurus" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.HerbivorePaddockTest.herbivorePaddockCanRemove" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.All in Jurassic_Park_test" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.HerbivorePaddockTest.herbivorePaddockCanAddStegosaurus" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.HerbivorePaddockTest.herbivorePaddockCanAdd" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.HerbivorePaddockTest.herbivorePaddockStartsEmpty" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.CarnivorePaddockTest.carnivorePaddockCanRemove" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.CarnivorePaddockTest.carnivorePaddockCanAddUtahraptor" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.All in Jurassic_Park_test" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.HerbivorePaddockTest.herbivorePaddockCanRemove" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.HerbivorePaddockTest.herbivorePaddockCanAddStegosaurus" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.HerbivorePaddockTest.herbivorePaddockCanAdd" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.HerbivorePaddockTest.herbivorePaddockStartsEmpty" />
       </list>
     </recent_temporary>
   </component>
@@ -824,6 +806,9 @@
     <history-entry file="All_in_Jurassic_Park_test - 2018.01.09 at 10h 07m 14s.xml">
       <configuration name="All in Jurassic_Park_test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="All_in_Jurassic_Park_test - 2018.01.09 at 10h 44m 47s.xml">
+      <configuration name="All in Jurassic_Park_test" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="CarnivorePaddockTest - 2018.01.09 at 10h 07m 07s.xml">
       <configuration name="CarnivorePaddockTest" configurationId="JUnit" />
     </history-entry>
@@ -832,12 +817,6 @@
     </history-entry>
     <history-entry file="CarnivorePaddockTest_carnivorePaddockCanRemove - 2018.01.09 at 10h 23m 20s.xml">
       <configuration name="CarnivorePaddockTest.carnivorePaddockCanRemove" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CarnivorePaddockTest_carnivorePaddockStartsEmpty - 2018.01.09 at 10h 05m 51s.xml">
-      <configuration name="CarnivorePaddockTest.carnivorePaddockStartsEmpty" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CarnivorePaddockTest_carnivorePaddockStartsEmpty - 2018.01.09 at 10h 07m 01s.xml">
-      <configuration name="CarnivorePaddockTest.carnivorePaddockStartsEmpty" configurationId="JUnit" />
     </history-entry>
     <history-entry file="CarnivorePaddockTest_carnivorePaddockcanAdd - 2018.01.09 at 10h 12m 28s.xml">
       <configuration name="CarnivorePaddockTest.carnivorePaddockcanAdd" configurationId="JUnit" />
@@ -848,13 +827,15 @@
     <history-entry file="HerbivorePaddockTest_herbivorePaddockCanAddStegosaurus - 2018.01.09 at 10h 39m 50s.xml">
       <configuration name="HerbivorePaddockTest.herbivorePaddockCanAddStegosaurus" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="HerbivorePaddockTest_herbivorePaddockCanRemove - 2018.01.09 at 10h 44m 38s.xml">
+      <configuration name="HerbivorePaddockTest.herbivorePaddockCanRemove" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="HerbivorePaddockTest_herbivorePaddockStartsEmpty - 2018.01.09 at 10h 30m 13s.xml">
       <configuration name="HerbivorePaddockTest.herbivorePaddockStartsEmpty" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1402,20 +1383,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/paddocks/HerbivorePaddock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="47" lean-forward="false" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#421#422#0" expanded="true" />
-            <element signature="e#465#466#0" expanded="true" />
-            <element signature="e#536#537#0" expanded="true" />
-            <element signature="e#590#591#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/paddocks_test/CarnivorePaddockTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="309">
@@ -1451,10 +1418,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/paddocks/HerbivorePaddock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="50" lean-forward="false" selection-start-line="24" selection-start-column="50" selection-end-line="24" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#421#422#0" expanded="true" />
+            <element signature="e#465#466#0" expanded="true" />
+            <element signature="e#536#537#0" expanded="true" />
+            <element signature="e#590#591#0" expanded="true" />
+            <element signature="e#666#667#0" expanded="true" />
+            <element signature="e#723#724#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/paddocks_test/HerbivorePaddockTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="54" column="24" lean-forward="false" selection-start-line="54" selection-start-column="24" selection-end-line="54" selection-end-column="24" />
+        <state relative-caret-position="382">
+          <caret line="61" column="42" lean-forward="false" selection-start-line="61" selection-start-column="25" selection-end-line="61" selection-end-column="42" />
           <folding>
             <element signature="e#554#555#0" expanded="true" />
             <element signature="e#633#634#0" expanded="true" />

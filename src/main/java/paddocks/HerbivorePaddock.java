@@ -20,4 +20,8 @@ public class HerbivorePaddock extends Paddocks {
     public void addToPaddock(HerbivoreDionsaurs herbivoreDionsaurs) {
         this.dionsaurs.add(herbivoreDionsaurs);
     }
+
+    public void removeFromPaddock(HerbivoreDionsaurs herbivoreDionsaurs) {
+        this.dionsaurs.remove(herbivoreDionsaurs);
+    }
 }
