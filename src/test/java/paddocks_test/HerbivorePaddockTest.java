@@ -1,6 +1,6 @@
 package paddocks_test;
 
-import herbivore_dinosaurs.HerbivoreDionsaurs;
+import herbivore_dinosaurs.HerbivoreDinosaur;
 import herbivore_dinosaurs.Stegosaurus;
 import org.junit.Before;
 import org.junit.Test;
@@ -11,11 +11,13 @@ import static org.junit.Assert.assertEquals;
 public class HerbivorePaddockTest {
 
     HerbivorePaddock herbivorePaddock;
-    HerbivoreDionsaurs herbivoreDionsaurs;
+    HerbivorePaddock herbivorePaddock2;
+    HerbivoreDinosaur herbivoreDionsaurs;
 
     @Before
     public void before() {
         herbivorePaddock = new HerbivorePaddock("Jurassic Herbivores", "Herbivore", 25500, 5000);
+        herbivorePaddock2 = new HerbivorePaddock("Jurassic Herbivores", "Herbivore", 25500, 5000);
     }
 
     @Test
@@ -67,7 +69,9 @@ public class HerbivorePaddockTest {
     public void canTransfer() {
         herbivoreDionsaurs = new Stegosaurus("Sara", 5, 8, 2900, "Herbivore", 1150);
         herbivorePaddock.addToPaddock(herbivoreDionsaurs);
-
+        herbivorePaddock.transferToPaddock(herbivoreDionsaurs, herbivorePaddock2);
+        assertEquals(1, herbivorePaddock2.getCount());
+        assertEquals(0, herbivorePaddock.getCount());
     }
 
 }

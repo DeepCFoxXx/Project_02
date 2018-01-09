@@ -2,7 +2,7 @@ package herbivore_dinosaurs;
 
 import dinosaurs_food.Edible;
 
-public class Triceratops extends HerbivoreDionsaurs {
+public class Triceratops extends HerbivoreDinosaur {
 
     private String discription;
 

@@ -2,7 +2,7 @@ package herbivore_dinosaurs;
 
 import dinosaurs_food.Edible;
 
-public class Stegosaurus extends HerbivoreDionsaurs {
+public class Stegosaurus extends HerbivoreDinosaur {
 
     private String discription;
 
