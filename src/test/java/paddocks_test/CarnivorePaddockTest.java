@@ -1,5 +1,6 @@
 package paddocks_test;
 
+import carnivore_dionsaurs.CarnivorousDinosaurs;
 import org.junit.Before;
 import org.junit.Test;
 import paddocks.CarnivorePaddock;
@@ -9,6 +10,7 @@ import static org.junit.Assert.assertEquals;
 public class CarnivorePaddockTest {
 
     CarnivorePaddock carnivorePaddock;
+    CarnivorousDinosaurs carnivorousDinosaurs;
 
     @Before
     public void before() {
@@ -16,24 +18,31 @@ public class CarnivorePaddockTest {
     }
 
     @Test
-    public void aquaticPaddockHasName() {
+    public void carnivorePaddockHasName() {
         assertEquals("Jurassic Carnivores", carnivorePaddock.getName());
     }
 
     @Test
-    public void aquaticPaddockHasType() {
+    public void carnivorePaddockHasType() {
         assertEquals("Carnivorous", carnivorePaddock.getType());
     }
 
     @Test
-    public void aquaticPaddockHasSize() {
+    public void carnivorePaddockHasSize() {
         assertEquals(25500, carnivorePaddock.getSize());
     }
 
     @Test
-    public void aquaticPaddockHasDefenseValue() {
+    public void carnivorePaddockHasDefenseValue() {
         assertEquals(5000, carnivorePaddock.getDefenseValue());
     }
+
+    @Test
+    public void carnivorePaddockStartsEmpty() {
+        assertEquals(0, carnivorePaddock.getCount());
+    }
+
+    
 
 }
 
