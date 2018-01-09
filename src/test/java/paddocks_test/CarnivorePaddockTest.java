@@ -69,11 +69,56 @@ public class CarnivorePaddockTest {
 
     @Test
     public void canTransferToPaddock2() {
-        carnivorousDinosaurs = new Allosaurus("Sara", 5, 8, 2900, "Herbivore", 1150);
+        carnivorousDinosaurs = new Allosaurus("Kevin", 4, 8, 550, "Carnivore", 650);
         carnivorePaddock.addToPaddock(carnivorousDinosaurs);
         carnivorePaddock.transferToPaddock(carnivorousDinosaurs, carnivorePaddock2);
         assertEquals(1, carnivorePaddock2.getCount());
         assertEquals(0, carnivorePaddock.getCount());
+    }
+
+    @Test
+    public void carnivorePaddock2HasName() {
+        assertEquals("Transfer Tank", carnivorePaddock2.getName());
+    }
+
+    @Test
+    public void carnivorePaddock2HasType() {
+        assertEquals("Carnivorous", carnivorePaddock2.getType());
+    }
+
+    @Test
+    public void carnivorePaddock2HasSize() {
+        assertEquals(20000, carnivorePaddock2.getSize());
+    }
+
+    @Test
+    public void carnivorePaddock2HasDefenseValue() {
+        assertEquals(10000, carnivorePaddock2.getDefenseValue());
+    }
+
+    @Test
+    public void carnivorePaddock2StartsEmpty() {
+        assertEquals(0, carnivorePaddock2.getCount());
+    }
+
+    @Test
+    public void carnivorePaddock2canAdd() {
+        carnivorePaddock2.addToPaddock(carnivorousDinosaurs);
+        assertEquals(1, carnivorePaddock2.getCount());
+    }
+
+    @Test
+    public void carnivorePaddock2CanAddAllosaurus() {
+        carnivorousDinosaurs = new Allosaurus("Lara", 3, 5, 490, "Carnivorous", 400);
+        carnivorePaddock2.addToPaddock(carnivorousDinosaurs);
+        assertEquals(1, carnivorePaddock2.getCount());
+    }
+
+    @Test
+    public void carnivorePaddock2CanRemove() {
+        carnivorePaddock2.addToPaddock(carnivorousDinosaurs);
+        carnivorePaddock2.removeFromPaddock(carnivorousDinosaurs);
+        assertEquals(0, carnivorePaddock2.getCount());
     }
 
 }
