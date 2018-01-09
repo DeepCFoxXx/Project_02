@@ -40,4 +40,11 @@ public class ParkTest {
          park.addToPark(paddocks);
          assertEquals(1, park.getCount());
      }
+
+     @Test
+     public void parkCanAddAquaticPaddock() {
+         paddocks = new AquaticPaddock("Water House", "Aqatic", 45500, 1000);
+         park.addToPark(paddocks);
+         assertEquals(1, park.getCount());
+     }
 }
