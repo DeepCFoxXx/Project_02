@@ -1,5 +1,7 @@
 package paddocks;
 
+import dinosaurs.Dinosaur;
+
 public abstract class Paddocks {
 
     private String name;
@@ -28,9 +30,5 @@ public abstract class Paddocks {
 
     public int getDefenseValue() {
         return this.defenseValue;
-    }
-
-    public int getCount() {
-        return this.size;
     }
 }
