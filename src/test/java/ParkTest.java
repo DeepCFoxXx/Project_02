@@ -7,6 +7,7 @@ import paddocks.Paddocks;
 
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
 
 public class ParkTest {
 
@@ -54,4 +55,11 @@ public class ParkTest {
          park.removeFromPark(paddocks);
          assertEquals(0, park.getCount());
      }
+
+    @Test
+    public void parkHasVisitors() {
+        park.hasVisitors();
+        assertEquals(true, park.getVisitors() > 0);
+    }
+
 }
