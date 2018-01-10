@@ -72,4 +72,5 @@ public class AllosaurusTest {
         allosaurus.canRage();
         assertEquals(true, allosaurus.getRage() > 0);
     }
+
 }

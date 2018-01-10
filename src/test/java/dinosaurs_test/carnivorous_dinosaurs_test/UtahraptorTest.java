@@ -66,4 +66,10 @@ public class UtahraptorTest {
         assertEquals("Largest known member of raptor family.", utahraptor.getDiscription());
     }
 
+    @Test
+    public void utahraptorCanRage() {
+        utahraptor.canRage();
+        assertEquals(true, utahraptor.getRage() > 0);
+    }
+
 }
