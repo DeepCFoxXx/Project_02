@@ -29,4 +29,8 @@ public abstract class Paddocks {
     public int getDefenseValue() {
         return this.defenseValue;
     }
+
+    public int getCount() {
+        return this.size;
+    }
 }

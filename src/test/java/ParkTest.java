@@ -1,3 +1,5 @@
+import carnivore_dionsaurs.CarnivorousDinosaurs;
+import carnivore_dionsaurs.Utahraptor;
 import dinosaurs.Dinosaur;
 import org.junit.Before;
 import org.junit.Test;
@@ -14,10 +16,11 @@ public class ParkTest {
 
      Park park;
      Paddocks paddocks;
+     Paddocks rageHouse;
      AquaticPaddock aquaticPaddock;
      CarnivorePaddock carnivorePaddock;
      HerbivorePaddock herbivorePaddock;
-     Dinosaur dinosaur;
+
 
      @Before
      public void before() {
@@ -25,7 +28,7 @@ public class ParkTest {
          paddocks = new AquaticPaddock("Water House", "Aqatic", 45500, 1000);
          paddocks = new CarnivorePaddock("Sand House", "Carnivore", 25500, 5000);
          paddocks = new HerbivorePaddock("Green House", "Herbivore", 22500, 4000);
-
+         rageHouse = new CarnivorePaddock("Rage House", "Carnivore", 1000, 10000);
      }
 
      @Test
@@ -65,9 +68,23 @@ public class ParkTest {
     }
 
     @Test
-    public void parksArrayListOfDinosaurStartsEmpty() {
-        assertEquals(0, park.getCount());
+    public void rageListStartsEmpty() {
+        assertEquals(0, rageHouse.getCount());
     }
+
+//    @Test
+//    public boolean parkCanCheckRage() {
+//        dinosaur = new Utahraptor("Jamie", 1, 4, 500, "Carnivorous", 600);
+//        park.addToPark();
+//        assertEquals(1, park.getCount());
+//
+//// dinosaurs rage == true
+//        if (rage == true) {
+////         then move dinosaur from paddock to park ArrayList
+//        } else if () {
+////         do nothing
+//        }
+//    }
 
 
 }

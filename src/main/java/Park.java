@@ -9,12 +9,13 @@ public class Park {
     private String name;
     private ArrayList<Paddocks> paddocks;
     private int visitors;
-    private ArrayList<Dinosaur> park;
+    private ArrayList<Dinosaur> rageHouse;
 
     public Park(String name) {
         this.name = name;
         this.paddocks = new ArrayList<Paddocks>();
         this.visitors = 0;
+        this.rageHouse = new ArrayList<>();
     }
 
     public String getName() {
