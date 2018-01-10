@@ -72,4 +72,12 @@ public class PlesiosaurTest {
         assertEquals(true, plesiosaur.getRage() > 0);
     }
 
+//    @Test
+//    public void plesiosaurCanGetOut() {
+//        plesiosaur.canGetOut();
+//        assertEquals(true, plesiosaur.getOut());
+//    }
+
+
+
 }

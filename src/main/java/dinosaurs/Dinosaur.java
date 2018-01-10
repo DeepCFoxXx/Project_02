@@ -49,7 +49,6 @@ public abstract class Dinosaur implements IFeed{
     }
 
     public void feed(int edible){
-        //work out what happens when dinsosaur eats an edible
         this.healthValue += edible;
     }
 

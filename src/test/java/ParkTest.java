@@ -1,3 +1,4 @@
+import dinosaurs.Dinosaur;
 import org.junit.Before;
 import org.junit.Test;
 import paddocks.AquaticPaddock;
@@ -16,6 +17,7 @@ public class ParkTest {
      AquaticPaddock aquaticPaddock;
      CarnivorePaddock carnivorePaddock;
      HerbivorePaddock herbivorePaddock;
+     Dinosaur dinosaur;
 
      @Before
      public void before() {
@@ -61,5 +63,16 @@ public class ParkTest {
         park.hasVisitors();
         assertEquals(true, park.getVisitors() > 0);
     }
+
+    @Test
+    public void parksArrayListOfDinosaurStartsEmpty() {
+        assertEquals(0, park.getCount());
+    }
+
+//    @Test
+//    public void parkArrayListCanAdd() {
+//        park.addToPark(dinosaur);
+//        assertEquals(1, park.getCount());
+//    }
 
 }

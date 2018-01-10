@@ -10,6 +10,7 @@ public abstract class AqaticDinosaurs extends Dinosaur {
 
     public AqaticDinosaurs(String name, int height, int length, int weight, String type, int helathValue) {
         super(name, height, length, weight, type, helathValue);
+        this.rage = 0;
     }
 
     public void canRage() {
@@ -22,4 +23,11 @@ public abstract class AqaticDinosaurs extends Dinosaur {
         return rage;
     }
 
+//    public boolean canGetOut() {
+//        if (rage == this.rage) {
+//            String dinosaur = "Is in paddock";
+//        } else if (rage == this.rage);
+//            String dinosaur = "Is Out Paddock";
+//        return canGetOut();
+//    }
 }

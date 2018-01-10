@@ -1,3 +1,4 @@
+import dinosaurs.Dinosaur;
 import paddocks.Paddocks;
 
 import java.util.ArrayList;
@@ -8,10 +9,12 @@ public class Park {
     private String name;
     private ArrayList<Paddocks> paddocks;
     private int visitors;
+    private ArrayList<Dinosaur> park;
 
     public Park(String name) {
         this.name = name;
         this.paddocks = new ArrayList<Paddocks>();
+        this.visitors = 0;
     }
 
     public String getName() {
