@@ -7,7 +7,6 @@ import java.util.Random;
 public abstract class CarnivorousDinosaurs extends Dinosaur {
 
     private int rage;
-    private int calm;
 
     public CarnivorousDinosaurs(String name, int height, int length, int weight, String type, int healthValue) {
         super(name, height, length, weight, type, healthValue);

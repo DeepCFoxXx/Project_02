@@ -66,4 +66,10 @@ public class TusoteuthisTest {
         assertEquals("Large ancestor of modern day giant squid, Eating habits included siphoning and drinking preys blood.", tusoteuthis.getDiscription());
     }
 
+    @Test
+    public void tusoteuthisCanRage() {
+        tusoteuthis.canRage();
+        assertEquals(true, tusoteuthis.getRage() > 0);
+    }
+
 }

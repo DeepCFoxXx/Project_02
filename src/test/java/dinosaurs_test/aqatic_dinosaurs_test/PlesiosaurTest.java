@@ -66,4 +66,10 @@ public class PlesiosaurTest {
         assertEquals("Plesiosaurs were an order of large carnivorous marine reptiles from 245 million years ago.", plesiosaur.getDiscription());
     }
 
+    @Test
+    public void plesiosaurCanRage() {
+        plesiosaur.canRage();
+        assertEquals(true, plesiosaur.getRage() > 0);
+    }
+
 }
