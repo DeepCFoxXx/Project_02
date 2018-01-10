@@ -14,7 +14,7 @@ public abstract class AqaticDinosaurs extends Dinosaur {
 
     public void canRage() {
         Random rand = new Random();
-        int amountOfRage = rand.nextInt(3);
+        int amountOfRage = rand.nextInt(100);
         this.rage += amountOfRage;
     }
 
