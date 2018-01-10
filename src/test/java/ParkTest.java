@@ -69,10 +69,5 @@ public class ParkTest {
         assertEquals(0, park.getCount());
     }
 
-//    @Test
-//    public void parkArrayListCanAdd() {
-//        park.addToPark(dinosaur);
-//        assertEquals(1, park.getCount());
-//    }
 
 }
