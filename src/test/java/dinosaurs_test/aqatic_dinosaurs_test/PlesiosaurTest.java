@@ -1,6 +1,9 @@
 package dinosaurs_test.aqatic_dinosaurs_test;
 
 import aquatic_dinosaurs.Plesiosaur;
+import dinosaur_attack.IAttack;
+import dinosaur_attack.Swipe;
+import dinosaurs.Dinosaur;
 import dinosaurs_food.Edible;
 import dinosaurs_food.Fish;
 import org.junit.Before;
@@ -12,10 +15,13 @@ public class PlesiosaurTest {
 
     Plesiosaur plesiosaur;
     Edible edible;
+    IAttack swipe;
+    Dinosaur dinosaur;
 
     @Before
     public void before() {
         plesiosaur = new Plesiosaur("Nessie", 1, 4, 450, "Aquatic", 500);
+        swipe = new Swipe();
     }
 
     @Test
@@ -71,6 +77,14 @@ public class PlesiosaurTest {
         plesiosaur.canRage();
         assertEquals(true, plesiosaur.getRage() > 0);
     }
+
+//    @Test
+//    public void plesiosaurCanAttack() {
+//        swipe = new Swipe();
+//        dinosaur = new Stegosaurus("Beverly", 5, 8, 3000, "Herbivore", 3000);
+//        plesiosaur.attack(dinosaur);
+//        assertEquals(2800, dinosaur.getHealth());
+//    }
 
 //    @Test
 //    public void plesiosaurCanGetOut() {

@@ -3,6 +3,7 @@ package paddocks_test;
 import aquatic_dinosaurs.AqaticDinosaurs;
 import aquatic_dinosaurs.Plesiosaur;
 import aquatic_dinosaurs.Tusoteuthis;
+import dinosaur_attack.IAttack;
 import org.junit.Before;
 import org.junit.Test;
 import paddocks.AquaticPaddock;
@@ -14,6 +15,7 @@ public class AquaticPaddockTest {
     AquaticPaddock aquaticPaddock;
     AquaticPaddock aquaticPaddock2;
     AqaticDinosaurs aqaticDinosaurs;
+    IAttack swipe;
 
     @Before
     public void before() {

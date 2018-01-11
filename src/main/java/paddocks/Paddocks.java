@@ -1,7 +1,5 @@
 package paddocks;
 
-import dinosaurs.Dinosaur;
-
 public abstract class Paddocks {
 
     private String name;

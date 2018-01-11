@@ -1,5 +1,6 @@
 package aquatic_dinosaurs;
 
+import dinosaur_attack.IAttack;
 import dinosaurs.*;
 
 import java.util.Random;
@@ -7,6 +8,7 @@ import java.util.Random;
 public abstract class AqaticDinosaurs extends Dinosaur {
 
     private int rage;
+    private IAttack attack;
 
     public AqaticDinosaurs(String name, int height, int length, int weight, String type, int helathValue) {
         super(name, height, length, weight, type, helathValue);
@@ -22,6 +24,10 @@ public abstract class AqaticDinosaurs extends Dinosaur {
     public int getRage() {
         return rage;
     }
+
+//    public void attack(Dinosaur dinosaur) {
+//        this.attack.attack(dinosaur);
+//    }
 
 //    public boolean canGetOut() {
 //        if (rage == this.rage) {

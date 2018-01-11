@@ -1,6 +1,5 @@
-import dinosaurs.Dinosaur;
-import paddocks.Paddocks;
 
+import paddocks.Paddocks;
 import java.util.ArrayList;
 import java.util.Random;
 

@@ -1,6 +1,8 @@
 package dinosaurs_test.aqatic_dinosaurs_test;
 
 import aquatic_dinosaurs.Tusoteuthis;
+import dinosaur_attack.IAttack;
+import dinosaurs.Dinosaur;
 import dinosaurs_food.Edible;
 import dinosaurs_food.Fish;
 import org.junit.Before;
@@ -12,6 +14,8 @@ public class TusoteuthisTest {
 
     Tusoteuthis tusoteuthis;
     Edible edible;
+    IAttack swipe;
+    Dinosaur dinosaur;
 
     @Before
     public void before() {

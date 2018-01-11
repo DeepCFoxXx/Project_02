@@ -2,6 +2,7 @@ package dinosaur_attack_test;
 
 import aquatic_dinosaurs.Plesiosaur;
 import dinosaur_attack.Barge;
+import dinosaur_attack.IAttack;
 import dinosaurs.Dinosaur;
 import org.junit.Before;
 import org.junit.Test;
@@ -12,6 +13,7 @@ public class BargeTest {
 
     Barge barge;
     Dinosaur dinosaur;
+    IAttack swipe;
 
     @Before
     public void before() {
