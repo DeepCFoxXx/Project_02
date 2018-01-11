@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b085f0f-e8a1-4d8b-b5d6-84333f225ec9" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/dinosaur_attack/IAttack.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/dinosaur_attack/Swipe.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/dinosaur_attack_test/SwipeTest.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/dinosaur_attack_test/SwipeTest.java" afterPath="$PROJECT_DIR$/src/test/java/dinosaur_attack_test/SwipeTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -50,9 +47,11 @@
       <file leaf-file-name="SwipeTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/dinosaur_attack_test/SwipeTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="22" lean-forward="false" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-              <folding />
+            <state relative-caret-position="359">
+              <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -363,7 +362,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/aqatic_dinosaurs/Plesiosaur.java" />
         <option value="$PROJECT_DIR$/src/main/java/aqatic_dinosaurs/AqaticDinosaurs.java" />
         <option value="$PROJECT_DIR$/src/main/java/aqatic_dinosaurs/Dinosaurs.java" />
         <option value="$PROJECT_DIR$/src/main/java/dinosaurs/Dinosaurs.java" />
@@ -414,6 +412,7 @@
         <option value="$PROJECT_DIR$/src/test/java/ParkTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/dinosaur_attack/IAttack.java" />
         <option value="$PROJECT_DIR$/src/main/java/dinosaur_attack/Swipe.java" />
+        <option value="$PROJECT_DIR$/src/test/java/dinosaur_attack_test/SwipeTest.java" />
       </list>
     </option>
   </component>
@@ -478,6 +477,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="carnivore_dionsaurs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Jurassic_Park" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Jurassic_Park" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="dinosaur_attack" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -533,7 +540,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.All in Jurassic_Park_test">
+  <component name="RunManager" selected="JUnit.SwipeTest.canAttack">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -563,26 +570,6 @@
       <option name="MAIN_CLASS_NAME" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="package" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="ParkTest.parksArrayListOfDinosaurStartsEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="Jurassic_Park_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ParkTest" />
-      <option name="METHOD_NAME" value="parksArrayListOfDinosaurStartsEmpty" />
-      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -642,6 +629,31 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ParkTest" />
       <option name="METHOD_NAME" value="rageListStartsEmpty" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="SwipeTest.canAttack" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="dinosaur_attack_test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Jurassic_Park_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="dinosaur_attack_test" />
+      <option name="MAIN_CLASS_NAME" value="dinosaur_attack_test.SwipeTest" />
+      <option name="METHOD_NAME" value="canAttack" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -716,18 +728,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.All in Jurassic_Park_test" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.ParkTest.parksArrayListOfDinosaurStartsEmpty" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.ParkTest.rageListStartsEmpty" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.ParkTest.rageHouseStartsEmpty" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.ParkTest.rageHouseCanAdd" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.ParkTest.rageListStartsEmpty" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.ParkTest.rageHouseStartsEmpty" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.ParkTest.rageHouseCanAdd" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.SwipeTest.canAttack" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.All in Jurassic_Park_test" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.ParkTest.rageHouseCanAdd" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.ParkTest.rageHouseStartsEmpty" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.ParkTest.rageListStartsEmpty" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.ParkTest.parksArrayListOfDinosaurStartsEmpty" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.SwipeTest.canAttack" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.All in Jurassic_Park_test" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.ParkTest.rageHouseCanAdd" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.ParkTest.rageHouseStartsEmpty" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.ParkTest.rageListStartsEmpty" />
       </list>
     </recent_temporary>
   </component>
@@ -748,9 +760,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_Jurassic_Park_test - 2018.01.10 at 11h 43m 21s.xml">
-      <configuration name="All in Jurassic_Park_test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="All_in_Jurassic_Park_test - 2018.01.10 at 14h 12m 26s.xml">
       <configuration name="All in Jurassic_Park_test" configurationId="JUnit" />
     </history-entry>
@@ -778,6 +787,9 @@
     <history-entry file="ParkTest_rageListStartsEmpty - 2018.01.10 at 13h 26m 13s.xml">
       <configuration name="ParkTest.rageListStartsEmpty" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="SwipeTest_canAttack - 2018.01.11 at 14h 05m 22s.xml">
+      <configuration name="SwipeTest.canAttack" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -790,12 +802,12 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25584593" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25584593" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2536349" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2536349" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -992,18 +1004,6 @@
             <element signature="e#466#467#0" expanded="true" />
             <element signature="e#504#505#0" expanded="true" />
             <element signature="e#537#538#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/carnivore_dionsaurs/CarnivorousDinosaurs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="24" lean-forward="true" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#554#555#0" expanded="true" />
-            <element signature="e#581#582#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1295,11 +1295,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dinosaur_attack/IAttack.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/carnivore_dionsaurs/CarnivorousDinosaurs.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="90">
+          <caret line="6" column="22" lean-forward="false" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#554#555#0" expanded="true" />
+            <element signature="e#581#582#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1314,11 +1318,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dinosaur_attack/IAttack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/dinosaur_attack_test/SwipeTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="22" lean-forward="false" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-          <folding />
+        <state relative-caret-position="359">
+          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
