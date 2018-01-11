@@ -26,32 +26,32 @@ public class ClawTest {
     }
 
     @Test
-    public void allosaurusHasName() {
+    public void utahraptorHasName() {
         assertEquals("Jimmy", dinosaur.getName());
     }
 
     @Test
-    public void allosaurusHasHeight() {
+    public void utahraptorHasHeight() {
         assertEquals(2, dinosaur.getHeight());
     }
 
     @Test
-    public void allosaurusHasLength() {
+    public void utahraptorHasLength() {
         assertEquals(6, dinosaur.getLength());
     }
 
     @Test
-    public void allosaurusHasWeight() {
+    public void utahraptorHasWeight() {
         assertEquals(1100, dinosaur.getWeight());
     }
 
     @Test
-    public void allosaurusHasType() {
+    public void utahraptorHasType() {
         assertEquals("Carnivorous", dinosaur.getType());
     }
 
     @Test
-    public void allosaurusHasHealth() {
+    public void utahraptorHasHealth() {
         assertEquals(2000, dinosaur.getHealth());
     }
 

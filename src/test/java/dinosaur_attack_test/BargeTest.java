@@ -24,4 +24,35 @@ public class BargeTest {
         barge.attack(dinosaur);
         assertEquals(1700, dinosaur.getHealth());
     }
+
+    @Test
+    public void plesiosaurHasName() {
+        assertEquals("John", dinosaur.getName());
+    }
+
+    @Test
+    public void plesiosaurHasHeight() {
+        assertEquals(3, dinosaur.getHeight());
+    }
+
+    @Test
+    public void plesiosaurHasLength() {
+        assertEquals(7, dinosaur.getLength());
+    }
+
+    @Test
+    public void plesiosaurHasWeight() {
+        assertEquals(800, dinosaur.getWeight());
+    }
+
+    @Test
+    public void plesiosaurHasType() {
+        assertEquals("Aqatic", dinosaur.getType());
+    }
+
+    @Test
+    public void plesiosaurHasHealth() {
+        assertEquals(2000, dinosaur.getHealth());
+    }
+
 }
