@@ -25,4 +25,34 @@ public class SwipeTest {
         assertEquals(1800, dinosaur.getHealth());
     }
 
+    @Test
+    public void allosaurusHasName() {
+        assertEquals("Robert", dinosaur.getName());
+    }
+
+    @Test
+    public void allosaurusHasHeight() {
+        assertEquals(2, dinosaur.getHeight());
+    }
+
+    @Test
+    public void allosaurusHasLength() {
+        assertEquals(5, dinosaur.getLength());
+    }
+
+    @Test
+    public void allosaurusHasWeight() {
+        assertEquals(550, dinosaur.getWeight());
+    }
+
+    @Test
+    public void allosaurusHasType() {
+        assertEquals("Carnivorous", dinosaur.getType());
+    }
+
+    @Test
+    public void allosaurusHasHealth() {
+        assertEquals(2000, dinosaur.getHealth());
+    }
+
 }
