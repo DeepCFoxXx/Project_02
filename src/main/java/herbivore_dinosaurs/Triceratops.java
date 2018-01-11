@@ -16,7 +16,6 @@ public class Triceratops extends HerbivoreDinosaur {
     }
 
     public void feed(Edible edible){
-        //work out what happens when dinsosaur eats an edible
         this.feed(edible);
     }
 }

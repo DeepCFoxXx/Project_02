@@ -2,7 +2,6 @@ package dinosaurs_food_test;
 
 import dinosaurs_food.Leaves;
 import herbivore_dinosaurs.HerbivoreDinosaur;
-import herbivore_dinosaurs.Stegosaurus;
 import org.junit.Before;
 import org.junit.Test;
 

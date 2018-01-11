@@ -3,7 +3,6 @@ package dinosaurs_test.carnivorous_dinosaurs_test;
 import carnivore_dionsaurs.Allosaurus;
 import dinosaurs_food.Edible;
 import dinosaurs_food.Pig;
-import herbivore_dinosaurs.Stegosaurus;
 import org.junit.Before;
 import org.junit.Test;
 

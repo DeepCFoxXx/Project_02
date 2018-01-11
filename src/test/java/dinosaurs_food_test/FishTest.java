@@ -1,7 +1,6 @@
 package dinosaurs_food_test;
 
 import aquatic_dinosaurs.AqaticDinosaurs;
-import aquatic_dinosaurs.Plesiosaur;
 import dinosaurs_food.Fish;
 import org.junit.Before;
 import org.junit.Test;

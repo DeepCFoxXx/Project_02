@@ -1,5 +1,3 @@
-import carnivore_dionsaurs.CarnivorousDinosaurs;
-import carnivore_dionsaurs.Utahraptor;
 import dinosaurs.Dinosaur;
 import org.junit.Before;
 import org.junit.Test;
@@ -10,7 +8,6 @@ import paddocks.Paddocks;
 
 
 import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertTrue;
 
 public class ParkTest {
 
