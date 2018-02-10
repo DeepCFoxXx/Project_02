@@ -2,7 +2,6 @@ package paddocks;
 
 import aquatic_dinosaurs.AqaticDinosaurs;
 
-
 import java.util.ArrayList;
 
 public class AquaticPaddock extends Paddocks{

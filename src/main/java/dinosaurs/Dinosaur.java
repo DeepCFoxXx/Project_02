@@ -1,7 +1,5 @@
 package dinosaurs;
 
-import dinosaurs_food.Edible;
-
 public abstract class Dinosaur implements IFeed{
 
     private String name;
